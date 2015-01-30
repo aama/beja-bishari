@@ -3,7 +3,7 @@
 :sgpref "bbi"
 :schemata {
 :case [:Object, :Oblique, :Possessive]
-	  :caseHead [:Genitive, :Nominative, :Object, :Subject]
+	  :caseHead [:Possessive, :Nominative, :Object, :Subject]
 	  :conjClass [:Prefix, :Prefix2, :Prefix3, :Prefix4, :Prefix5, :PrefixIrregular, :PrefixOther, :Suffix]
 	  :derivedStem [:Base, :CausativeCausative, :M, :S, :SM]
 	  :gender [:Common, :Fem, :Masc]
@@ -13890,7 +13890,7 @@
     {:label "beja_A-PPossSuffExx"
     :note "Almkvist1881 #109-110. Baba and enda do not take article."
     :common {:morpheme :PRO,
-	    :pos :Pronoun,
+	    :pos :Var,
 	    :proClass :PossSuffExx}
     :terms [[:caseHead, :genderHead, :genderPoss, :numHead, :number, :person, :token]  ;; schema
 	    [:Object, :Fem, :Masc, :Singular, :Singular, :Person2, "áne tṓkātó̄k áder"],
@@ -14055,7 +14055,7 @@
     :note "Almkvist1881 #112 (Gender marking in possessive?)"
     :common {:gender :Common,
 	    :morpheme :PRO,
-	    :pos :Pronoun,
+	    :pos :Var,
 	    :proClass :PossSuffCopExx}
     :terms [[:genderCop, :numCop, :number, :persCop, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Plural, :Person2, :Person1, "barú̄k sanōn-wa"],
@@ -14131,7 +14131,7 @@
     :note "Almkvist1881 #114,116"
     :common {:morpheme :PRO,
 	    :numPoss :Singular,
-	    :pos :Pronoun,
+	    :pos :Var,
 	    :proClass :PossSuffGenExx}
     :terms [[:caseHead, :genderPoss, :numHead, :number, :person, :token]  ;; schema
 	    [:Nominative, :Common, :Plural, :Singular, :Person1, "ēsánājé̄a (té̄kwāté̄a) gáwa wá̄wina"],
@@ -14319,7 +14319,7 @@
     }
     {:label "beja_A-PPossSuffGen"
     :note "Almkvist1881 #106"
-    :common {:caseHead :Genitive,
+    :common {:caseHead :Possessive,
 	    :morpheme :PRO,
 	    :pos :Pronoun,
 	    :proClass :PossSuffGen}
@@ -14439,7 +14439,7 @@
     {:label "beja_A-PObjSuffWithV"
     :note "Almkvist1881 #333"
     :common {:morpheme :PRO,
-	    :pos :Pronoun,
+	    :pos :Var,
 	    :proClass :ObjSuffWithV}
     :terms [[:tam, :token, :token-gloss]  ;; schema
 	    [:Aorist, "sénīthōkna", "ich warter auf euch"],
