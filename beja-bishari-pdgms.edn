@@ -14288,7 +14288,8 @@
     {:label "aama:pdgmlabel beja_H-P3sgProDialectDist"
     :common {:pdgmType :Structure,
 	    :morpheme :PRO,
-	    :pos :Pronoun}
+	    :pos :Pronoun
+             :person :Person3}
     :terms [[:case, :number, :token]  ;; schema
 	    [:Object, :Singular, "-[h]ooh"],
 	    [:Possessive, :Singular, "- h"],
