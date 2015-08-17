@@ -10,7 +10,6 @@
 	  :genCop [:Common, :Fem, :Masc] ;;lookup
 	  :genHead [:H_Fem, :H_Masc]
 	  :genP1 [:Common, :Fem, :Masc] ;;lookup
-	  :langVAR [:Bishari]
 	  :morphClass [:IrrVerbs, :PREFSUBJMARK, :PRO, :SUBJSUFFIX]
 	  :numCop [:C_Plural, :C_Singular] ;;lookup
 	  :numHead [:H_Plural, :H_Singular]
@@ -28,7 +27,7 @@
 	  :proClass [:DatInd, :IndObl, :Independent, :ObjSuff, :ObjSuffWithV, :PossInd, :PossSuffAbl, :PossSuffCop, :PossSuffCopExx, :PossSuffDat, :PossSuffExx, :PossSuffGen, :PossSuffGenExx, :PossSuffNom, :PossSuffPlusGen, :Reflexive, :SubjMarker, :SuffComp]
 	  :rootClass [:C, :CC, :CCC, :CCCa, :CCCi, :CCCu, :CCY, :V, :V2, :Vdpth]
            :stemClass [:PNas, :PDent, :PVoc, :PElide, :PVar, :PIrr]
-	  :tam [:Aorist, :Conditional, :Future1, :Future2, :Imperative, :Infinitive, :Optative, :Perfect, :Pluperfect, :Present, :StemQ, :_NULL]
+	  :tam [:Aorist, :Conditional, :Future1, :Future2, :Imperative, :Infinitive, :Optative, :Perfect, :Pluperfect, :Present, :StemQ]
 	  :verbMorphClass [:SubjMarker]
 	  }
 :pclass {
@@ -49,20 +48,20 @@
   :lex4 {:conjClass :Prefix, :gloss "advance (treten)", :lemma "_NULL", :pos :Verb}
   :lex5 {:gloss "bring", :lemma "_NULL", :pos :Verb, :rootClass :CCC}
   :afu {:conjClass :Suffix, :gloss "avoid", :lemma "afu", :pos :Verb}
-  :ah {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
+  :ah {:gloss "[x]", :lemma "[y]", }
   :am {:gloss "[x]", :lemma "[y]", }
   :are {:conjClass :Suffix, :gloss "want", :lemma "are", :pos :Verb}
   :at {:gloss "[x]", :lemma "[y]", }
-  :awai {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
+  :awai {:gloss "[x]", :lemma "[y]", }
   :baden {:gloss "[x]", :lemma "[y]", }
-  :bai {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
-  :bari {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
+  :bai {:gloss "[x]", :lemma "[y]", }
+  :bari {:gloss "[x]", :lemma "[y]", }
   :bedaj {:gloss "yawn", :lemma "bedaj", :pos :Verb, :rootClass :CCC}
   :beday {:gloss "[x]", :lemma "[y]", }
   :báden {:gloss "guess", :lemma "báden", :pos :Verb, :rootClass :CCC}
   :daa {:gloss "[x]", :lemma "[y]", }
   :dagw {:gloss "spin", :lemma "dagw", :pos :Verb, :rootClass :CCC}
-  :di {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
+  :di {:gloss "[x]", :lemma "[y]", }
   :din {:conjClass :Prefix, :gloss "weigh (wägen)", :lemma "din", :pos :Verb}
   :dmm {:gloss "[x]", :lemma "[y]", }
   :du {:gloss "[x]", :lemma "[y]", }
@@ -71,7 +70,7 @@
   :dū {:conjClass :Suffix, :gloss "sleep", :lemma "dū", :pos :Verb}
   :ega {:conjClass :Suffix, :gloss "smoke", :lemma "ega", :pos :Verb}
   :engad {:gloss "stand", :lemma "engad", :pos :Verb, :rootClass :CCC}
-  :fai {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
+  :fai {:gloss "[x]", :lemma "[y]", }
   :fedig {:gloss "[x]", :lemma "[y]", }
   :for {:gloss "flee", :lemma "for", :pos :Verb, :rootClass :CCY}
   :fédig {:gloss "leave", :lemma "fédig", :pos :Verb, :rootClass :CCCi}
@@ -79,29 +78,29 @@
   :gwa {:conjClass :Suffix, :gloss "sleep", :lemma "gwa", :pos :Verb}
   :génaf {:gloss "kneel", :lemma "génaf", :pos :Verb, :rootClass :CCC}
   :ha {:gloss "[x]", :lemma "[y]", }
-  :hai {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
+  :hai {:gloss "[x]", :lemma "[y]", }
   :haid {:gloss "sew", :lemma "haid", :pos :Verb, :rootClass :CCC}
   :hajid {:gloss "[x]", :lemma "[y]", }
-  :hamai {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
-  :heru {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
-  :hi {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
+  :hamai {:gloss "[x]", :lemma "[y]", }
+  :heru {:gloss "[x]", :lemma "[y]", }
+  :hi {:gloss "[x]", :lemma "[y]", }
   :hájid {:gloss "choose", :lemma "hájid", :pos :Verb, :rootClass :CCCi}
   :ii {:gloss "come", :lemma "ii", :pos :Verb, :rootClass :CCC}
-  :jai {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
-  :kai {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
-  :kan {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
+  :jai {:gloss "[x]", :lemma "[y]", }
+  :kai {:gloss "[x]", :lemma "[y]", }
+  :kan {:gloss "[x]", :lemma "[y]", }
   :ketim {:gloss "[x]", :lemma "[y]", }
   :kwai {:conjClass :Suffix, :gloss "be led", :lemma "kwai", :pos :Verb}
   :kétim {:gloss "succeed (anlangen)", :lemma "kétim", :pos :Verb, :rootClass :CCCi}
   :masu {:gloss "[x]", :lemma "[y]", }
   :mehag {:gloss "[x]", :lemma "[y]", }
   :mehág {:gloss "turn out (auskehren)", :lemma "mehág", :pos :Verb, :rootClass :CCCa}
-  :meri {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
+  :meri {:gloss "[x]", :lemma "[y]", }
   :mitya {:conjClass :Suffix, :gloss "order", :lemma "mitya", :pos :Verb}
   :mwas {:gloss "[x]", :lemma "[y]", }
   :mwaš {:gloss "whisper", :lemma "mwaš", :pos :Verb, :rootClass :CCC}
   :másu {:gloss "hear", :lemma "másu", :pos :Verb, :rootClass :CCC}
-  :nani {:gloss "[x]", :langVAR :Bishari, :lemma "[y]", }
+  :nani {:gloss "[x]", :lemma "[y]", }
   :naw {:gloss "miss", :lemma "naw", :pos :Verb, :rootClass :CC}
   :ram {:gloss "follow", :lemma "ram", :pos :Verb, :rootClass :CC}
   :rby {:gloss "[x]", :lemma "[y]", }
@@ -14814,7 +14813,7 @@
 	    [:Fem, :Plural, :Person2, "gēbōkna", "bātēōkna-gēb", "gēbōkna ~  bātēōkna-gēb"]]
     }
     {:label "beja_A-PPossSuffCopExx"
-    :note "Almkvist1881 #112 (Gender marking in possessive?)"
+    :note "Almkvist1881 #112 (Gender marking in possessive?) [8/17/15 examine :_Common in :person and :number]"
     :common {:gender :Common,
 	    :morpheme :PRO,
 	    :pos :Var,
@@ -14825,13 +14824,13 @@
 	    [:Masc, :Singular, :Singular, :Person3, :Person1, "barú̄h sanó̄-j-u"],
 	    [:Common, :Plural, :Singular, :Person3, :Person3, "bará̄h sánā-j-é̄h-a"],
 	    [:Common, :Plural, :Singular, :Person3, :Person2, "batá̄h kwāté̄k-ta"],
-	    [:Common, :Plural, :Common, :Person1, :Common, "hénen kwá̄-ta"],
+	    [:Common, :Plural, :_Common, :Person1, :_Common, "hénen kwá̄-ta"],
 	    [:Fem, :Singular, :Plural, :Person2, :Person3, "batú̄k kwá̄tōhná̄-twi"],
 	    [:Fem, :Singular, :Singular, :Person3, :Person2, "batú̄h kwātōk-tu"],
 	    [:Masc, :Singular, :Plural, :Person2, :Person3, "barú̄k sánōhná̄-wa"],
 	    [:Common, :Plural, :Singular, :Person3, :Person2, "bará̄h sánā-j-é̄k-a"],
 	    [:Common, :Plural, :Plural, :Person1, :Person2, "hénen kwá̄tēkná̄-ta"],
-	    [:Common, :Singular, :Common, :Person1, :Common, "áne kwā́-tu"],
+	    [:Common, :Singular, :_Common, :Person1, :_Common, "áne kwā́-tu"],
 	    [:Common, :Plural, :Singular, :Person1, :Person3, "hénen kwāté̄h-ta"],
 	    [:Common, :Plural, :Singular, :Person3, :Person3, "batá̄h kwāté̄h-ta"],
 	    [:Masc, :Singular, :Plural, :Person3, :Person1, "barú̄h sanó̄n-u"],
@@ -14839,7 +14838,7 @@
 	    [:Fem, :Singular, :Plural, :Person3, :Person3, "batú̄h kwá̄tōhná̄-tu"],
 	    [:Common, :Plural, :Plural, :Person3, :Person3, "batá̄h kwá̄tēhná̄-ta"],
 	    [:Common, :Plural, :Plural, :Person3, :Person2, "bará̄h saná̄-j-ekná̄-j-a"],
-	    [:Common, :Singular, :Common, :Person1, :Common, "áne sán-u"],
+	    [:Common, :Singular, :_Common, :Person1, :_Common, "áne sán-u"],
 	    [:Fem, :Singular, :Singular, :Person3, :Person1, "batú̄h kwātō-tu"],
 	    [:Common, :Singular, :Plural, :Person1, :Person2, "áne kwá̄tōkná̄-tu"],
 	    [:Common, :Plural, :Plural, :Person1, :Person3, "hénen saná̄-j-ēhná̄-j-a"],
@@ -14849,21 +14848,21 @@
 	    [:Common, :Singular, :Singular, :Person1, :Person2, "áne sanōk-u"],
 	    [:Masc, :Singular, :Plural, :Person3, :Person3, "barú̄h sánó̄hná̄-j-u"],
 	    [:Common, :Plural, :Plural, :Person2, :Person3, "bará̄k saná̄-j-ēhná̄-na"],
-	    [:Common, :Plural, :Common, :Person3, :Common, "batá̄h kwá̄-ta"],
+	    [:Common, :Plural, :_Common, :Person3, :_Common, "batá̄h kwá̄-ta"],
 	    [:Common, :Plural, :Singular, :Person1, :Person3, "hénen sánā-j-é̄h-a"],
-	    [:Common, :Plural, :Common, :Person2, :Common, "bará̄k sánāb-á̄na"],
+	    [:Common, :Plural, :_Common, :Person2, :_Common, "bará̄k sánāb-á̄na"],
 	    [:Common, :Plural, :Singular, :Person3, :Person1, "bará̄h sánā-j-é̄-j-a"],
-	    [:Common, :Plural, :Common, :Person1, :Common, "hénen saná̄b-a"],
-	    [:Masc, :Singular, :Common, :Person3, :Common, "barú̄h ú̄san-u"],
+	    [:Common, :Plural, :_Common, :Person1, :_Common, "hénen saná̄b-a"],
+	    [:Masc, :Singular, :_Common, :Person3, :_Common, "barú̄h ú̄san-u"],
 	    [:Common, :Singular, :Plural, :Person1, :Person3, "áne kwá̄tōhná̄-tu"],
 	    [:Fem, :Singular, :Singular, :Person2, :Person1, "batú̄k kwātō-twi"],
-	    [:Masc, :Singular, :Common, :Person2, :Common, "barú̄k sán-wa"],
+	    [:Masc, :Singular, :_Common, :Person2, :_Common, "barú̄k sán-wa"],
 	    [:Common, :Singular, :Plural, :Person1, :Person3, "áne sánōhna-j-u"],
-	    [:Fem, :Singular, :Common, :Person2, :Common, "batú̄k kwá̄-twi"],
+	    [:Fem, :Singular, :_Common, :Person2, :_Common, "batú̄k kwá̄-twi"],
 	    [:Fem, :Singular, :Singular, :Person3, :Person3, "batú̄h kwātōh-tu"],
 	    [:Common, :Plural, :Plural, :Person2, :Person1, "batá̄k kwá̄ten-tá̄na"],
 	    [:Masc, :Singular, :Plural, :Person3, :Person2, "barú̄h sánó̄kná̄-j-u"],
-	    [:Common, :Plural, :Common, :Person2, :Common, "batá̄k kwā-tá̄na"],
+	    [:Common, :Plural, :_Common, :Person2, :_Common, "batá̄k kwā-tá̄na"],
 	    [:Common, :Singular, :Plural, :Person1, :Person2, "áne sánōknā-j-u"],
 	    [:Common, :Plural, :Plural, :Person1, :Person3, "hénen kwá̄tēhná̄-ta"],
 	    [:Fem, :Singular, :Plural, :Person3, :Person2, "batú̄h kwātōkná̄-tu"],
@@ -14882,8 +14881,8 @@
 	    [:Common, :Plural, :Singular, :Person2, :Person3, "bará̄k saná̄-j-ēh-á̄na"],
 	    [:Common, :Plural, :Singular, :Person2, :Person1, "batá̄k kwá̄tē-tá̄na"],
 	    [:Common, :Plural, :Plural, :Person3, :Person1, "bará̄h sánā-j-é̄n-a"],
-	    [:Common, :Plural, :Common, :Person3, :Common, "bará̄h saná̄b-a"],
-	    [:Fem, :Singular, :Common, :Person3, :Common, "batú̄h tú̄kwāt-tu"],
+	    [:Common, :Plural, :_Common, :Person3, :_Common, "bará̄h saná̄b-a"],
+	    [:Fem, :Singular, :_Common, :Person3, :_Common, "batú̄h tú̄kwāt-tu"],
 	    [:Fem, :Singular, :Plural, :Person2, :Person1, "batú̄k kwātōn-twi"],
 	    [:Common, :Plural, :Plural, :Person3, :Person3, "bará̄h saná̄-j-ēhná̄-j-a"],
 	    [:Common, :Singular, :Singular, :Person1, :Person2, "áne kwā́tṓk-tu"],
@@ -14957,33 +14956,34 @@
     :terms [[:gender, :number, :person, :polarity, :tam, :token]  ;; schema
 	    [:Common, :Plural, :Person3, :Affirmative, :Perfect, "e-na"],
 	    [:Common, :Plural, :Person1, :Affirmative, :Conditional, "ne…ēk"],
-	    	    [:Common, :Plural, :Person3, :Negative, :Present, "kī-na"],
+            [:Common, :Plural, :Person3, :Negative, :Present, "kī-na"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Aorist, "-ata"],
 	    [:Common, :Plural, :Person1, :Affirmative, :Perfect, "ne-"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Conditional, "te…ēk"],
-	    	    	    	    [:Common, :Plural, :Person2, :Affirmative, :Imperative, "-na"],
+            [:Common, :Plural, :Person2, :Affirmative, :Imperative, "-na"],
 	    [:Fem, :Singular, :Person3, :Affirmative, :Present, "te…"],
-	    	    [:Masc, :Singular, :Person2, :Negative, :Optative, "bā…wa"],
+            [:Masc, :Singular, :Person2, :Negative, :Optative, "bā…wa"],
 	    [:Fem, :Singular, :Person2, :Negative, :Present, "kit-i"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Future1, "i… téndia"],
 	    [:Common, :Plural, :Person2, :Affirmative, :Aorist, "-atna"],
 	    [:Fem, :Singular, :Person2, :Negative, :Conditional, "bit…ēk"],
-	    	    	    [:Masc, :Singular, :Person3, :Negative, :Optative, "bā…u"],
+            [:Masc, :Singular, :Person3, :Negative, :Optative, "bā…u"],
 	    [:Common, :Plural, :Person2, :Negative, :Imperative, "bā…na"],
-	    	    [:Common, :Plural, :Person2, :Affirmative, :Conditional, "te…nēk"],
+            [:Common, :Plural, :Person2, :Affirmative, :Conditional, "te…nēk"],
 	    [:Fem, :Singular, :Person3, :Affirmative, :Conditional, "te…ēk"],
 	    [:Common, :Plural, :Person2, :Affirmative, :Present, "te…na"],
 	    [:Masc, :Singular, :Person3, :Negative, :Conditional, "bī…ēk"],
 	    [:Masc, :Singular, :Person3, :Negative, :Present, "kī-"],
 	    [:Fem, :Singular, :Person2, :Affirmative, :Imperative, "-i"],
+	    [:Masc, :Singular, :Person2, :Affirmative, :Imperative, "-a"],
 	    [:Masc, :Singular, :Person3, :Affirmative, :Present, "e…"],
 	    [:Common, :Plural, :Person3, :Affirmative, :Conditional, "e…nēk"],
 	    [:Masc, :Singular, :Person2, :Negative, :Imperative, "bā…a"],
 	    [:Common, :Plural, :Person1, :Negative, :Optative, "bā…a"],
 	    [:Common, :Plural, :Person1, :Affirmative, :Present, "ne…"],
-	    	    	    [:Common, :Singular, :Person1, :Negative, :Future1, "i…ká̄di"],
+            [:Common, :Singular, :Person1, :Negative, :Future1, "i…ká̄di"],
 	    [:Common, :Plural, :Person3, :Affirmative, :Present, "e…na"],
-	    	    [:Fem, :Singular, :Person3, :Negative, :Imperative, "bit…"],
+            [:Fem, :Singular, :Person3, :Negative, :Imperative, "bit…"],
 	    [:Common, :Plural, :Person3, :Affirmative, :Aorist, "bāī…na"],
 	    [:Masc, :Singular, :Person2, :Negative, :Future1, "i… kíddia"],
 	    [:Common, :Singular, :Person1, :Negative, :Optative, "bā…u"],
@@ -14995,17 +14995,17 @@
 	    [:Masc, :Singular, :Person3, :Affirmative, :Aorist, "bāī…"],
 	    [:Common, :Plural, :Person3, :Negative, :Imperative, "bī…na"],
 	    [:Fem, :Singular, :Person3, :Negative, :Conditional, "bit…ēk"],
-	    	    [:Common, :Singular, :Person1, :Affirmative, :Conditional, "a…ēk"],
+            [:Common, :Singular, :Person1, :Affirmative, :Conditional, "a…ēk"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Present, "te…a"],
-	    [:Common, :Common, :Common, :Affirmative, :_NULL, "-a"],
+	    [:Common, :_NA, :_NA, :Affirmative, :Participle, "-a"],
 	    [:Fem, :Singular, :Person3, :Affirmative, :Aorist, "bātī…"],
 	    [:Common, :Singular, :Person1, :Negative, :Conditional, "bā…ēk"],
-	    	    	    [:Fem, :Singular, :Person2, :Negative, :Imperative, "bī…i"],
+            [:Fem, :Singular, :Person2, :Negative, :Imperative, "bī…i"],
 	    [:Fem, :Singular, :Person3, :Negative, :Optative, "bā…tu"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Perfect, "te-a"],
-	    [:Common, :Common, :Common, :Affirmative, :Future2, "…hérrīwa"],
+	    [:Masc, :Singular, :Person2, :Affirmative, :Future2, "…hérrīwa"],
 	    [:Common, :Singular, :Person1, :Affirmative, :Aorist, "-at"],
-	    [:Common, :Common, :Common, :Affirmative, :Future2, "…hérriu"],
+	    [:Common, :Singular, :Person2, :Affirmative, :Future2, "…hérriu"],
 	    [:Masc, :Singular, :Person2, :Negative, :Present, "kit-a"],
 	    [:Common, :Singular, :Person1, :Affirmative, :Perfect, "a-"],
 	    [:Common, :Plural, :Person1, :Negative, :Conditional, "bin…ēk"],
@@ -15013,8 +15013,8 @@
 	    [:Fem, :Singular, :Person2, :Affirmative, :Present, "te…i"],
 	    [:Common, :Singular, :Person1, :Negative, :Future2, "… ká̄heru"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Imperative, "-a"],
-	    	    [:Masc, :Singular, :Person3, :Affirmative, :Perfect, "e-"],
-	    	    [:Common, :Plural, :Person1, :Affirmative, :Aorist, "-adēni"],
+            [:Masc, :Singular, :Person3, :Affirmative, :Perfect, "e-"],
+            [:Common, :Plural, :Person1, :Affirmative, :Aorist, "-adēni"],
 	    [:Common, :Singular, :Person1, :Affirmative, :Future1, "i… ándi"],
 	    [:Common, :Plural, :Person3, :Negative, :Conditional, "bī…nēk"],
 	    [:Masc, :Singular, :Person3, :Affirmative, :Conditional, "e…ēk"],
@@ -15027,8 +15027,8 @@
 	    [:Fem, :Singular, :Person2, :Negative, :Optative, "bā…twi"],
 	    [:Fem, :Singular, :Person3, :Affirmative, :Perfect, "te-"],
 	    [:Fem, :Singular, :Person2, :Affirmative, :Perfect, "te-i"],
-	    	    [:Fem, :Singular, :Person3, :Negative, :Present, "kit-"],
-	    	    [:Masc, :Singular, :Person3, :Negative, :Imperative, "bī…"]]
+            [:Fem, :Singular, :Person3, :Negative, :Present, "kit-"],
+            [:Masc, :Singular, :Person3, :Negative, :Imperative, "bī…"]]
     }
     {:label "aama:pdgmlabel beja_H-P3sgProDialectDist"
     :common {:pdgmType :Structure,
