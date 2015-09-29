@@ -1,5 +1,8 @@
 {
 :lang :beja-bishari
+:datasource "Almkvist1881"
+:geodemoURL "http://www.ethnologue.com/language/bej"
+:geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The Northern-most representative of Beja is documented here, that of the Bishari in Aswan and Sudan, studied by Herman Almkvist (1881) in one of the earliest monographs dedicated to a variety of Beja."
 :sgpref "bbi"
 :schemata {
 :case [:Subject, :Object, :Oblique, :Possessive]
@@ -23,7 +26,7 @@
 	  :persP2 [:P2_Person1, :P2_Person2, :P2_Person3] ;;lookup
 	  :person [:Person1, :Person2, :Person3]
 	  :polarity [:Affirmative, :Negative]
-	  :pos [:Adjective, :Pronoun, :Verb, :Var]
+	  :pos [:Adjective, :Pronoun, :Verb]
 	  :proClass [:DatInd, :IndObl, :Independent, :ObjSuff, :ObjSuffWithV, :PossInd, :PossSuffAbl, :PossSuffCop, :PossSuffCopExx, :PossSuffDat, :PossSuffExx, :PossSuffGen, :PossSuffGenExx, :PossSuffNom, :PossSuffPlusGen, :Reflexive, :SubjMarker, :SuffComp]
 	  :rootClass [:C, :CC, :CCC, :CCCa, :CCCi, :CCCu, :CCY, :V, :V2, :Vdpth]
            :stemClass [:PNas, :PDent, :PVoc, :PElide, :PVar, :PIrr]
@@ -14651,7 +14654,7 @@
     {:label "beja_A-PPossSuffExx"
     :note "Almkvist1881 #109-110. Add lexemes: san brother, kwa	sister, baba father, enda mother. NB: Baba and enda do not take article."
     :common {:morpheme :PRO,
-	    :pos :Var,
+	    :pos :Pronoun,
 	    :proClass :PossSuffExx}
     :terms [[:caseHead, :genHead, :gender, :numHead, :number, :person, :token]  ;; schema
 	    [:H_Object, :H_Fem, :Masc, :H_Singular, :Singular, :Person2, "áne tṓkātó̄k áder"],
@@ -14800,7 +14803,7 @@
 	    :morpheme :PRO,
 	    :pos :Pronoun,
 	    :proClass :IndObl}
-    :terms [[:gender, :number, :person, :token-1, :token-2, :token, :token]  ;; schema
+    :terms [[:gender, :number, :person, :token-1, :token-2, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "gé̄bōh", "bātiōh-gēb", "gé̄bōh ~  bātiōh-gēb", "gé̄bōh ~  bātiōh-gēb"],
 	    [:Common, :Singular, :Person1, "gé̄ba", "ánī-gēb", "gé̄ba ~  ánī-gēb"],
 	    [:Common, :Plural, :Person1, "gé̄bōn", "hénē-gēb", "gé̄bōn ~  hénē-gēb"],
@@ -14816,7 +14819,7 @@
     :note "Almkvist1881 #112 (Gender marking in possessive?) [8/17/15 examine :_Common in :person and :number]"
     :common {:gender :Common,
 	    :morpheme :PRO,
-	    :pos :Var,
+	    :pos :Pronoun,
 	    :proClass :PossSuffCopExx}
     :terms [[:genCop, :numCop, :number, :persCop, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Plural, :Person2, :Person1, "barú̄k sanōn-wa"],
@@ -14892,7 +14895,7 @@
     :note "Almkvist1881 #114,116"
     :common {:morpheme :PRO,
 	    :number :Singular,
-	    :pos :Var,
+	    :pos :Pronoun,
 	    :proClass :PossSuffGenExx}
     :terms [[:caseHead, :gender, :numHead, :number, :person, :token]  ;; schema
 	    [:H_Subject, :Common, :H_Plural, :Singular, :Person1, "ēsánājé̄a (té̄kwāté̄a) gáwa wá̄wina"],
@@ -15183,7 +15186,7 @@
     {:label "beja_A-PObjSuffWithV"
     :note "Almkvist1881 #333"
     :common {:morpheme :PRO,
-	    :pos :Var,
+	    :pos :Pronoun,
 	    :proClass :ObjSuffWithV}
     :terms [[:tam, :token, :token-gloss]  ;; schema
 	    [:Aorist, "sénīthōkna", "ich warter auf euch"],
