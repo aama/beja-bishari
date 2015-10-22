@@ -15033,7 +15033,7 @@
             [:Fem, :Singular, :Person3, :Negative, :Present, "kit-"],
             [:Masc, :Singular, :Person3, :Negative, :Imperative, "bī…"]]
     }
-    {:label "aama:pdgmlabel beja_H-P3sgProDialectDist"
+    {:label "beja_H-P3sgProDialectDist"
     :common {:pdgmType :Structure,
 	    :morpheme :PRO,
 	    :pos :Pronoun
