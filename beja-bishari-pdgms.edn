@@ -7071,7 +7071,7 @@
 	    :morphClass :IrrVerbs,
 	    :pos :Verb,
 	    :rootClass :CC}
-    :terms [[:lexeme, :token-gloss]  ;; schema
+    :terms [[:lexeme, :token-note]  ;; schema
 	    [:awai, "help"],
 	    [:kan, "know"],
 	    [:ah, "take"],
@@ -14803,17 +14803,17 @@
 	    :morpheme :PRO,
 	    :pos :Pronoun,
 	    :proClass :IndObl}
-    :terms [[:gender, :number, :person, :token-1, :token-2, :token]  ;; schema
-	    [:Fem, :Singular, :Person3, "gé̄bōh", "bātiōh-gēb", "gé̄bōh ~  bātiōh-gēb", "gé̄bōh ~  bātiōh-gēb"],
-	    [:Common, :Singular, :Person1, "gé̄ba", "ánī-gēb", "gé̄ba ~  ánī-gēb"],
-	    [:Common, :Plural, :Person1, "gé̄bōn", "hénē-gēb", "gé̄bōn ~  hénē-gēb"],
-	    [:Masc, :Singular, :Person3, "gé̄bōh", "bariōh-gēb", "gé̄bōh ~  bariōh-gēb"],
-	    [:Masc, :Plural, :Person2, "gēbōkna", "barēōkna-gēb", "gēbōkna ~  barēōkna-gēb"],
-	    [:Fem, :Plural, :Person3, "gēbōhna", "bātēōhna-gēb", "gēbōhna ~  bātēōhna-gēb"],
-	    [:Masc, :Plural, :Person3, "gēbōhna", "barēōhna-gēb", "gēbōhna ~  barēōhna-gēb"],
-	    [:Fem, :Singular, :Person2, "gé̄bōk[i]", "bātiōk-gēb", "gé̄bōk[i] ~  bātiōk-gēb"],
-	    [:Masc, :Singular, :Person2, "gé̄bōk", "bariōk-gēb", "gé̄bōk ~  bariōk-gēb"],
-	    [:Fem, :Plural, :Person2, "gēbōkna", "bātēōkna-gēb", "gēbōkna ~  bātēōkna-gēb"]]
+    :terms [[:gender, :number, :person,  :token]  ;; schema
+	    [:Fem, :Singular, :Person3,   "gé̄bōh ~  bātiōh-gēb"],
+	    [:Common, :Singular, :Person1, "gé̄ba ~  ánī-gēb"],
+	    [:Common, :Plural, :Person1,  "gé̄bōn ~  hénē-gēb"],
+	    [:Masc, :Singular, :Person3,  "gé̄bōh ~  bariōh-gēb"],
+	    [:Masc, :Plural, :Person2,  "gēbōkna ~  barēōkna-gēb"],
+	    [:Fem, :Plural, :Person3,  "gēbōhna ~  bātēōhna-gēb"],
+	    [:Masc, :Plural, :Person3, "gēbōhna ~  barēōhna-gēb"],
+	    [:Fem, :Singular, :Person2, "gé̄bōk[i] ~  bātiōk-gēb"],
+	    [:Masc, :Singular, :Person2, "gé̄bōk ~  bariōk-gēb"],
+	    [:Fem, :Plural, :Person2,  "gēbōkna ~  bātēōkna-gēb"]]
     }
     {:label "beja_A-PPossSuffCopExx"
     :note "Almkvist1881 #112 (Gender marking in possessive?) [8/17/15 examine :_Common in :person and :number]"
@@ -15188,7 +15188,7 @@
     :common {:morpheme :PRO,
 	    :pos :Pronoun,
 	    :proClass :ObjSuffWithV}
-    :terms [[:tam, :token, :token-gloss]  ;; schema
+    :terms [[:tam, :token, :token-note]  ;; schema
 	    [:Aorist, "sénīthōkna", "ich warter auf euch"],
 	    [:Aorist, "barú̄k sí̄sanhé̄ba", "du [Mann]lasst mich warten"],
 	    [:Imperative, "ástēt hí̄n-o", "gebet ihm Geld!"],
