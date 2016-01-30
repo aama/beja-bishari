@@ -1,6 +1,7 @@
 {
 :lang :beja-bishari
 :datasource "Almkvist1881"
+:datasourceNotes "In order to avoid confusion and for ease of comparison,  what Almkvist calls 'Aorist' and 'Perfekt' are here termed 'Future' and 'Past' respectively. Almkvist's informants were apparently unaware of the second past tense termed 'Aorist' in the other varieties of Beja currently recorded in AAMA (cf. Appleyard2007, p. 468)."
 :geodemoURL "http://www.ethnologue.com/language/bej"
 :geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The Northern-most representative of Beja is documented here, that of the Bishari in Aswan and Sudan, studied by Herman Almkvist (1881) in one of the earliest monographs dedicated to a variety of Beja."
 :sgpref "bbi"
@@ -30,13 +31,13 @@
 	  :proClass [:DatInd, :IndObl, :Independent, :ObjSuff, :ObjSuffWithV, :PossInd, :PossSuffAbl, :PossSuffCop, :PossSuffCopExx, :PossSuffDat, :PossSuffExx, :PossSuffGen, :PossSuffGenExx, :PossSuffNom, :PossSuffPlusGen, :Reflexive, :SubjMarker, :SuffComp]
 	  :rootClass [:C, :CC, :CCC, :CCCa, :CCCi, :CCCu, :CCY, :V, :V2, :Vdpth]
            :stemClass [:PNas, :PDent, :PVoc, :PElide, :PVar, :PIrr]
-	  :tam [:Aorist, :Conditional, :Future1, :Future2, :Imperative, :Infinitive, :Optative, :Perfect, :Pluperfect, :Present, :StemQ]
+	  :tam [:Future, :Conditional, :FutureComp1, :FutureComp2, :Imperative, :Infinitive, :Optative, :Past, :Pluperfect, :Present, :StemQ]
 	  :verbMorphClass [:SubjMarker]
 	  }
 :pclass {
-           :pngClass [:person :number :gender ]
-           :synsemClass [:case  :derivedStem :polarity :pos :proClass :tam ]
-           :inflClass [:conjClass  ]
+           :pngClass [:person :number :gender :genCop :genHead :genP1 :numCop :numHead :numP1 :numP2 :numPoss :persCop :persP1 :persP2 ]
+           :synsemClass [:case :caseHead  :derivedStem :polarity :pos :proClass :tam ]
+           :inflClass [:conjClass :rootClass :stemClass ]
            :otherClass [ ]
           }
 :morphemes {
@@ -209,7 +210,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["mehágāb[-āt]ká̄ka"]]
     }
@@ -240,7 +241,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "dínāb[-āt]ká̄ka"],
 	    [:Masc, :Singular, :Person2, "dínāb[-āt]kítka"],
@@ -255,7 +256,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "éngadat"],
 	    [:Fem, :Singular, :Person3, "bāténgida"],
@@ -349,7 +350,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["ésgenif ándi"]]
     }
@@ -415,7 +416,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    [:Common, :Singular, :Person1, "sénāb ká̄ka"],
 	    [:Masc, :Singular, :Person2, "sénāb kítka"],
@@ -452,7 +453,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["éstenoi hérriu"]]
     }
@@ -482,7 +483,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    [:Common, :Singular, :Person1, "ádulá̄jat"],
 	    [:Fem, :Singular, :Person2, "ádulá̄i"],
@@ -518,7 +519,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :Vdpth,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person3, "bá̄reusi"],
 	    [:Masc, :Person2, "réusa"],
@@ -601,7 +602,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "tektímna"],
 	    [:Common, :Plural, :Person3, "ektímna"],
@@ -641,7 +642,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["fédgāb ká̄ka"]]
     }
@@ -653,7 +654,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "támatna"],
 	    [:Masc, :Singular, :Person2, "támata"],
@@ -716,7 +717,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["étfedīg ándi"]]
     }
@@ -733,7 +734,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["etfádgoid hérriu"]]
     }
@@ -747,7 +748,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "í̄’at téndia"],
 	    	    	    	    	    [:Common, :Singular, :Person1, "í̄’at ándi"],
@@ -829,7 +830,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "tesmá̄swa"],
 	    [:Common, :Person1, "asmá̄su"]]
@@ -843,7 +844,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "bá̄īd’ámna"],
 	    [:Masc, :Singular, :Person2, "‘ámata"],
@@ -867,7 +868,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["ésreb ándi"]]
     }
@@ -896,7 +897,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "bádnatī"],
 	    [:Common, :Plural, :Person3, "bá̄ībdá̄nna"],
@@ -954,7 +955,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["étehīd ándi"]]
     }
@@ -989,7 +990,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["í̄bdān ándi"]]
     }
@@ -1064,7 +1065,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "é̄e ándi"],
 	    [:Masc, :Person2, "é̄e téndia"]]
@@ -1134,7 +1135,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:person, :token]  ;; schema
 	    [:Person2, "‘aj hérija"],
 	    [:Person1, "‘aj háriu"],
@@ -1152,7 +1153,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["sōsan"]]
     }
@@ -1182,7 +1183,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "atōnāw (atōnāu)"],
 	    [:Common, :Plural, :Person1, "netōnāw (netōnāu)"],
@@ -1226,7 +1227,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "erámna"],
 	    [:Fem, :Singular, :Person3, "téram"],
@@ -1249,7 +1250,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["sōmāb ká̄ka"]]
     }
@@ -1265,7 +1266,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["tiffōjan"]]
     }
@@ -1296,7 +1297,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "mitjá̄n"],
 	    [:Masc, :Person2, "mitjá̄ta"],
@@ -1366,7 +1367,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Fem, :Person2, "tesōdini"],
 	    [:Masc, :Person2, "tesōdina"],
@@ -1384,7 +1385,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCu,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "šīšáguda"],
 	    [:Masc, :Person3, "bāeší̄š(u)gud"],
@@ -1399,7 +1400,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "té’ata"],
 	    [:Masc, :Singular, :Person3, "é-at"],
@@ -1419,7 +1420,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "téulía"],
 	    [:Common, :Plural, :Person2, "téulīn(a)"],
@@ -1439,7 +1440,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "sōe ándi"],
 	    	    	    	    	    	    [:Masc, :Singular, :Person2, "sōe téndia"],
@@ -1493,7 +1494,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["bídnēb hérriu"]]
     }
@@ -1529,7 +1530,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["mitjá̄sat"]]
     }
@@ -1579,7 +1580,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["ūasí̄stīb hérriu"]]
     }
@@ -1596,7 +1597,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["í̄mhag ándi"]]
     }
@@ -1609,7 +1610,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    [:Common, :Singular, :Person1, "dúwi ándi"],
 	    	    	    	    [:Masc, :Singular, :Person2, "dúwi téndia"]]
@@ -1626,7 +1627,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "asōsa’"],
 	    [:Plural, "nesōsa’"]]
@@ -1661,7 +1662,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["aré̄e ándi"]]
     }
@@ -1678,7 +1679,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCu,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["éštaguá̄dat"]]
     }
@@ -1821,7 +1822,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "sōjān(a)"],
 	    [:Masc, :Singular, :Person2, "sōta"],
@@ -1841,7 +1842,7 @@
              :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "émwāš"],
 	    [:Masc, :Singular, :Person2, "témwāša"],
@@ -1870,7 +1871,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :Vdpth,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ré̄wan"],
 	    [:Common, :Plural, :Person2, "réutān(a)"],
@@ -1992,7 +1993,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "tesí̄sana"],
 	    [:Common, :Plural, :Person1, "nesí̄san"],
@@ -2029,7 +2030,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["séganfat"]]
     }
@@ -2041,7 +2042,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "támi téndi"],
 	    [:Common, :Plural, :Person1, "t’mi níjed"],
@@ -2139,7 +2140,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["mitjá̄mat"]]
     }
@@ -2169,7 +2170,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "fédgat"],
 	    [:Common, :Plural, :Person1, "fédgadé̄ni"],
@@ -2225,7 +2226,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "éhajid"],
 	    [:Fem, :Singular, :Person2, "tehájidi"],
@@ -2261,7 +2262,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "ha’ásna"],
 	    [:Masc, :Singular, :Person2, "ha’ásta"],
@@ -2277,7 +2278,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "gwáta (gwa)"],
 	    [:Masc, :Singular, :Person3, "bá̄gwe"],
@@ -2336,7 +2337,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["tōrāmoid ká̄heru"]]
     }
@@ -2353,7 +2354,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["mísnai hérriu"]]
     }
@@ -2401,7 +2402,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "ásengad"],
 	    [:Masc, :Person2, "teséngada"]]
@@ -2451,7 +2452,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "‘āt ká̄heru"],
 	    	    	    [:Masc, :Singular, :Person2, "‘āt kétharu"],
@@ -2467,7 +2468,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["í̄msu ándi"]]
     }
@@ -2517,7 +2518,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "kítmadé̄ni"],
 	    [:Fem, :Singular, :Person2, "kítmati"],
@@ -2605,7 +2606,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["sōman"]]
     }
@@ -2638,7 +2639,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["sí̄sanoid hérriu"]]
     }
@@ -2737,7 +2738,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    [:Masc, :Singular, :Person2, "í̄’at kíddia"],
 	    [:Common, :Singular, :Person1, "í̄’at ká̄di"],
@@ -2775,7 +2776,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["emé̄bdīn ándi"]]
     }
@@ -2827,7 +2828,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["semhágoid ká̄heru"]]
     }
@@ -2862,7 +2863,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["í̄tram ándi"]]
     }
@@ -2877,7 +2878,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person3, "bá̄ūe"],
 	    [:Masc, :Person2, "ú̄̄a"],
@@ -2916,7 +2917,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["etmehá̄gab ká̄ka"]]
     }
@@ -2928,7 +2929,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "bá̄sōe"],
 	    [:Masc, :Singular, :Person2, "sōjata (sōja)"],
@@ -2982,7 +2983,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "í̄adé̄ni"],
 	    [:Masc, :Singular, :Person2, "í̄’ata"],
@@ -3040,7 +3041,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["dú̄sat"]]
     }
@@ -3107,7 +3108,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["gwámat"]]
     }
@@ -3138,7 +3139,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "há’ata"],
 	    [:Masc, :Person3, "bá̄he’e"],
@@ -3156,7 +3157,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["gwámi ándi"]]
     }
@@ -3184,7 +3185,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCu,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "neší̄šagud"],
 	    [:Common, :Singular, :Person1, "ašīšagud"],
@@ -3202,7 +3203,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["afú̄jan"]]
     }
@@ -3252,7 +3253,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ásul"],
 	    [:Common, :Plural, :Person1, "nésul"],
@@ -3320,7 +3321,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["sō̄’toid ká̄heru"]]
     }
@@ -3337,7 +3338,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["há’āb ká̄ka"]]
     }
@@ -3354,7 +3355,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["úmbatí̄b hérriu"]]
     }
@@ -3370,7 +3371,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["mitjá̄man"]]
     }
@@ -3383,7 +3384,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    [:Masc, :Singular, :Person2, "dúwāb kítka"],
 	    	    [:Common, :Singular, :Person1, "dúwāb ká̄ka"],
@@ -3433,7 +3434,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["í̄jāb ká̄ka"]]
     }
@@ -3448,7 +3449,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "sehájdat"],
 	    [:Masc, :Person3, "bá̄eshīd"]]
@@ -3500,7 +3501,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "rébjāb kítka"],
 	    [:Fem, :Singular, :Person2, "rébjāb kítkai"],
@@ -3536,7 +3537,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person3, "bāesú̄sa’"],
 	    [:Common, :Person1, "sōs’at"]]
@@ -3571,7 +3572,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "asbá̄den"],
 	    [:Masc, :Person2, "tesbá̄dena"]]
@@ -3640,7 +3641,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["etfádgāb ká̄ka"]]
     }
@@ -3657,7 +3658,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["sí̄sabroid hérriu"]]
     }
@@ -3670,7 +3671,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "úlīti"],
 	    [:Common, :Plural, :Person2, "ulí̄tna"],
@@ -3691,7 +3692,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    [:Masc, :Singular, :Person2, "tā’ hérrīwa"],
 	    [:Common, :Singular, :Person1, "tā’ hérriu"],
@@ -3706,7 +3707,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "tesá’i"],
 	    [:Common, :Plural, :Person3, "esá’na"],
@@ -3789,7 +3790,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["sōnoi hérriu"]]
     }
@@ -3880,7 +3881,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["semá̄swoid hérriu"]]
     }
@@ -3893,7 +3894,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "é̄ne kíddīn"],
 	    [:Masc, :Singular, :Person3, "é̄e kí̄di"],
@@ -3934,7 +3935,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["iá̄l ándi"]]
     }
@@ -3951,7 +3952,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["firá̄t hérriu"]]
     }
@@ -3968,7 +3969,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["ríbjēb hérriu"]]
     }
@@ -3998,7 +3999,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    [:Masc, :Singular, :Person2, "sōjāb kítka"],
 	    	    	    [:Common, :Singular, :Person1, "sōjāb kāka"],
@@ -4032,7 +4033,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :Vdpth,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["rēwaman"]]
     }
@@ -4046,7 +4047,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ásfōr"],
 	    [:Masc, :Singular, :Person2, "tésfōra"],
@@ -4080,7 +4081,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person3, "bá̄esmí̄su"],
 	    [:Common, :Person1, "semá̄swat"]]
@@ -4096,7 +4097,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person3, "bá̄emé̄bdīn"],
 	    [:Common, :Person1, "ámēbdá̄nat"]]
@@ -4113,7 +4114,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["mitjá̄san"]]
     }
@@ -4149,7 +4150,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["sémhagat"]]
     }
@@ -4166,7 +4167,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["édul ká̄di"]]
     }
@@ -4194,7 +4195,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "kí̄ka"],
 	    [:Common, :Plural, :Person2, "kítkēn"],
@@ -4237,7 +4238,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["afú̄jat"]]
     }
@@ -4292,7 +4293,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["úmbāb ká̄ka"]]
     }
@@ -4397,7 +4398,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "hé’e ándi"],
 	    [:Plural, "há’ni ní̄ed"]]
@@ -4446,7 +4447,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    	    	    [:Masc, :Singular, :Person2, "dá̄tīb hérriwa"],
 	    	    [:Common, :Singular, :Person1, "dá̄tīb hérriu"]]
@@ -4462,7 +4463,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["méswi hérriu"]]
     }
@@ -4492,7 +4493,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    [:Common, :Singular, :Person1, "dúwi kādi"],
 	    [:Masc, :Singular, :Person2, "dúwi kíddia"],
@@ -4511,7 +4512,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["irá̄b ká̄di"]]
     }
@@ -4528,7 +4529,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["mí̄sa’ hérriu"]]
     }
@@ -4610,7 +4611,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "‘átāb[-āt]ká̄ka"],
 	    	    	    	    	    	    	    [:Masc, :Singular, :Person2, "‘átāb[-āt]kítka"]]
@@ -4624,7 +4625,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "bá̄tisān"],
 	    [:Common, :Singular, :Person1, "sénīt"],
@@ -4645,7 +4646,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    	    	    	    [:Common, :Singular, :Person1, "í̄din ká̄di"],
 	    [:Masc, :Singular, :Person2, "í̄din kíddia"]]
@@ -4714,7 +4715,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["hájdāb ká̄ka"]]
     }
@@ -4731,7 +4732,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["ma’ám hérriu"]]
     }
@@ -4743,7 +4744,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "wá̄līja"],
 	    [:Common, :Plural, :Person2, "wá̄lī̄tá̄n(a)"],
@@ -4784,7 +4785,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["étreb ándi"]]
     }
@@ -4801,7 +4802,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["éstebīr ká̄di"]]
     }
@@ -4853,7 +4854,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "séngadat"],
 	    [:Masc, :Person3, "bāeséngid"]]
@@ -4867,7 +4868,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "érbi"],
 	    [:Fem, :Singular, :Person2, "térbi"],
@@ -4907,7 +4908,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["sōmat"]]
     }
@@ -4937,7 +4938,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "súulat"],
 	    [:Common, :Plural, :Person3, "bá̄esúlna"],
@@ -4958,7 +4959,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "éthajād"],
 	    [:Common, :Singular, :Person1, "áthajād"],
@@ -5131,7 +5132,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "sōrmat"],
 	    [:Masc, :Person3, "bāesú̄rim"]]
@@ -5204,7 +5205,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "atōrām"],
 	    [:Masc, :Singular, :Person2, "tétōrá̄ma"],
@@ -5223,7 +5224,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCu,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["áštagwād"]]
     }
@@ -5236,7 +5237,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    [:Masc, :Singular, :Person2, "gwa hérrīwa"],
 	    [:Common, :Singular, :Person1, "gwa hérriu"],
@@ -5309,7 +5310,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "tesō’ata"],
 	    [:Masc, :Person3, "esō’at"],
@@ -5343,7 +5344,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    [:Masc, :Singular, :Person2, "dān kétharu"],
 	    	    	    	    [:Common, :Singular, :Person1, "dān ká̄heru"]]
@@ -5361,7 +5362,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["ésul ándi"]]
     }
@@ -5377,7 +5378,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["egá̄sat"]]
     }
@@ -5394,7 +5395,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["bá̄esbí̄din"],
 	    ["sebá̄dnat"]]
@@ -5410,7 +5411,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "ūasí̄sta"],
 	    [:Common, :Person1, "ūasí̄san"]]
@@ -5428,7 +5429,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["ésten ándi"]]
     }
@@ -5442,7 +5443,7 @@
              :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "(a)muá̄šat"],
 	    [:Masc, :Person3, "bá̄emōš"],
@@ -5456,7 +5457,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "gwáta"],
 	    [:Common, :Plural, :Person1, "gwána"],
@@ -5480,7 +5481,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["úmbe ándi"]]
     }
@@ -5494,7 +5495,7 @@
              :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "bedá̄jat"],
 	    [:Masc, :Person2, "bedá̄jata"],
@@ -5565,7 +5566,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:number, :token]  ;; schema
 	    [:Plural, "nesōrim"],
 	    [:Singular, "asōrim"]]
@@ -5583,7 +5584,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["ú̄āb ká̄ka"]]
     }
@@ -5600,7 +5601,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["eší̄šbūb ándi"]]
     }
@@ -5617,7 +5618,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["mehú̄̄g ká̄heru"]]
     }
@@ -5668,7 +5669,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["dú̄san"]]
     }
@@ -5730,7 +5731,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "nétu’"],
 	    [:Common, :Plural, :Person3, "ētú’na"],
@@ -5772,7 +5773,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["dá̄sat"]]
     }
@@ -5789,7 +5790,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["étraboid hérriu"]]
     }
@@ -5875,7 +5876,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["ethájdoid hérriu"]]
     }
@@ -5998,7 +5999,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "bá̄īšbú̄bna"],
 	    [:Fem, :Singular, :Person2, "šebōbati"],
@@ -6078,7 +6079,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["ší̄šbōbat"]]
     }
@@ -6095,7 +6096,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["sō’tāb ká̄ka"]]
     }
@@ -6128,7 +6129,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["gwámi ká̄di"]]
     }
@@ -6194,7 +6195,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "egá̄jata"],
 	    [:Common, :Person1, "egá̄jat"],
@@ -6258,7 +6259,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    [:Common, :Singular, :Person1, "sōtīb hérriu"],
 	    	    	    	    [:Masc, :Singular, :Person2, "sōtīb herrīwa"],
@@ -6276,7 +6277,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :Vdpth,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["ré̄wamat"]]
     }
@@ -6292,7 +6293,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["sōmi ká̄di"]]
     }
@@ -6357,7 +6358,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["ésemhig ándi"]]
     }
@@ -6372,7 +6373,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "amé̄bdān"],
 	    [:Masc, :Person2, "témē̄bdá̄na"]]
@@ -6426,7 +6427,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["éduljāb ká̄ka"]]
     }
@@ -6495,7 +6496,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "ádulāj"],
 	    [:Masc, :Person2, "tédulá̄ja"]]
@@ -6528,7 +6529,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "étrabá̄ja"],
 	    [:Fem, :Singular, :Person3, "bá̄tetreb"],
@@ -6579,7 +6580,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "tebá̄den"],
 	    [:Common, :Plural, :Person1, "nebá̄den"],
@@ -6600,7 +6601,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    [:Common, :Singular, :Person1, "tú’āb[-āt]ká̄ka"],
 	    	    [:Masc, :Singular, :Person2, "tú’āb[-āt]kítka"],
@@ -6655,7 +6656,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    [:Masc, :Singular, :Person2, "dān hérrīwa"],
 	    	    	    	    [:Common, :Singular, :Person1, "dān hérriu"]]
@@ -6669,7 +6670,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "támsi ándi"],
 	    	    	    	    [:Masc, :Singular, :Person2, "támsi téndia"],
@@ -6687,7 +6688,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "átrabāj"],
 	    [:Masc, :Person2, "tétrabá̄ja"]]
@@ -6773,7 +6774,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "rámata"],
 	    [:Common, :Plural, :Person2, "rámatna"],
@@ -6793,7 +6794,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "támstīb hérrīwa"],
 	    	    	    	    	    	    [:Common, :Singular, :Person1, "támstīb herriu"],
@@ -6811,7 +6812,7 @@
              :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["demú̄m hérriu"]]
     }
@@ -6827,7 +6828,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "ásfadig"],
 	    [:Plural, "nésfadig"]]
@@ -6858,7 +6859,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "ngad"],
 	    [:Masc, :Singular, :Person2, "téngada"],
@@ -6882,7 +6883,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["séngadāb ká̄ka"]]
     }
@@ -6917,7 +6918,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "s̄odinat"],
 	    [:Fem, :Person2, "sōdini"],
@@ -6967,7 +6968,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    [:Masc, :Singular, :Person2, "dūtīb kétharu"],
 	    	    	    	    [:Common, :Singular, :Person1, "dú̄tīb kāheru"],
@@ -7036,7 +7037,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ádagw"],
 	    [:Masc, :Plural, :Person2, "tedágwna"],
@@ -7100,7 +7101,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["dá̄mtīb hérriu"]]
     }
@@ -7115,7 +7116,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "úmbāta"],
 	    [:Fem, :Person2, "úmbātai"],
@@ -7168,7 +7169,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "bá̄tīfra"],
 	    [:Common, :Plural, :Person1, "fōradé̄ni"],
@@ -7208,7 +7209,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["místebīrt ká̄heru"]]
     }
@@ -7224,7 +7225,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["dá̄mi ándi"]]
     }
@@ -7257,7 +7258,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["í̄sta’ ándi"]]
     }
@@ -7308,7 +7309,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["ha’ástīb hérriu"]]
     }
@@ -7378,7 +7379,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["mará̄m hérriu"]]
     }
@@ -7407,7 +7408,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    	    [:Masc, :Singular, :Person2, "gwátīb kétharu"],
 	    [:Common, :Singular, :Person1, "gwátīb ká̄heru"],
@@ -7426,7 +7427,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["sō’toid hérriu"]]
     }
@@ -7442,7 +7443,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["egá̄san"]]
     }
@@ -7566,7 +7567,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["dá̄san"]]
     }
@@ -7595,7 +7596,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "dá̄jatna"],
 	    [:Fem, :Singular, :Person2, "dá̄jati (dá̄i)"],
@@ -7617,7 +7618,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "má̄swāb kítka"],
 	    [:Common, :Person1, "má̄swāb ká̄ka"]]
@@ -7670,7 +7671,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCu,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["í̄šgud ándi"]]
     }
@@ -7723,7 +7724,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["isá̄n ká̄di"]]
     }
@@ -7740,7 +7741,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["engádāb ká̄ka"],
 	    ["engdāb kítka"]]
@@ -7771,7 +7772,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "dínat"],
 	    [:Masc, :Singular, :Person2, "dínata"],
@@ -7824,7 +7825,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "dá̄I ándi"],
 	    	    	    	    	    [:Masc, :Singular, :Person2, "dá̄I téndia"],
@@ -7843,7 +7844,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["esú̄’at ká̄di"]]
     }
@@ -7876,7 +7877,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "nédin"],
 	    [:Fem, :Singular, :Person3, "tédin"],
@@ -7900,7 +7901,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["í̄fra ándi"]]
     }
@@ -7917,7 +7918,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["šebōboid hérriu"]]
     }
@@ -7969,7 +7970,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["ášīšbōb"]]
     }
@@ -7982,7 +7983,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    [:Common, :Singular, :Person1, "tamámtīb ká̄heru"],
 	    [:Masc, :Singular, :Person2, "tamámtīb kétharu"],
@@ -8067,7 +8068,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["sōmi ándi"]]
     }
@@ -8116,7 +8117,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["gwásat"]]
     }
@@ -8132,7 +8133,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["gwáman"]]
     }
@@ -8179,7 +8180,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "fōrāb kítka"],
 	    [:Common, :Person1, "fōrāb ká̄ka"],
@@ -8230,7 +8231,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    [:Common, :Singular, :Person1, "gwāb ká̄ka"],
 	    	    	    	    	    [:Masc, :Singular, :Person2, "gwāb kítka"],
@@ -8249,7 +8250,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["mísnai ká̄heru"]]
     }
@@ -8262,7 +8263,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "bá̄irāb"],
 	    [:Common, :Plural, :Person1, "rébidé̄ni"],
@@ -8316,7 +8317,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["tōnāwāb ká̄ka"]]
     }
@@ -8331,7 +8332,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "téstená̄ja"],
 	    [:Common, :Person1, "ástenāj"]]
@@ -8349,7 +8350,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["tōrāmāb ká̄ka"]]
     }
@@ -8365,7 +8366,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["dá̄si ándi"]]
     }
@@ -8433,7 +8434,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "sá’āb kítka"],
 	    [:Fem, :Person2, "sá’āt kítkai"],
@@ -8452,7 +8453,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["semhágāb ká̄ka"]]
     }
@@ -8465,7 +8466,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "gwe téndia"],
 	    	    [:Common, :Singular, :Person1, "gwe ándi"],
@@ -8497,7 +8498,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "há’tāna"],
 	    [:Masc, :Singular, :Person3, "hé’ija"],
@@ -8519,7 +8520,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["séngadoid hérriu"]]
     }
@@ -8534,7 +8535,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:number, :person, :token]  ;; schema
 	    [:Singular, :Person1, "átfadāg"],
 	    [:Plural, :Person1, "nétfadāg"],
@@ -8570,7 +8571,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person3, "ú̄ia"],
 	    [:Common, :Person1, "̄úan"],
@@ -8590,7 +8591,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["í̄mhag ká̄di"]]
     }
@@ -8658,7 +8659,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["súuljāb ká̄ka"]]
     }
@@ -8744,7 +8745,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:number, :person, :token]  ;; schema
 	    [:Singular, :Person1, "étfadá̄gat"],
 	    [:Plural, :Person1, "etfadá̄gadé̄ni"],
@@ -8759,7 +8760,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    [:Fem, :Singular, :Person2, "támstīb kétharu"],
 	    [:Masc, :Singular, :Person2, "támstīb kétharu"],
@@ -8791,7 +8792,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "bá̄ītu’"],
 	    [:Fem, :Singular, :Person3, "bá̄tītu’"],
@@ -8848,7 +8849,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "támami kíddia"],
 	    	    	    [:Common, :Singular, :Person1, "támami ká̄di"],
@@ -8884,7 +8885,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "í̄msu ká̄di"],
 	    [:Masc, :Person2, "í̄msu kíddia"]]
@@ -8898,7 +8899,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    [:Common, :Singular, :Person1, "támsi ká̄di"],
 	    	    	    [:Masc, :Singular, :Person2, "támsi kíddia"],
@@ -8965,7 +8966,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["mehú̄g hérriu"]]
     }
@@ -8981,7 +8982,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["gwámtīb hérriu"]]
     }
@@ -9027,7 +9028,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "há’sat"],
 	    [:Masc, :Person3, "bāhá’si"]]
@@ -9098,7 +9099,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["méngēd hérriu"]]
     }
@@ -9112,7 +9113,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "bá̄īdagw"],
 	    [:Common, :Singular, :Person1, "dágwat"],
@@ -9131,7 +9132,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["sōsat"]]
     }
@@ -9211,7 +9212,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    [:Masc, :Singular, :Person2, "sōtīb kétharu"],
 	    	    	    	    [:Common, :Singular, :Person1, "sōtīb kāheru"],
@@ -9243,7 +9244,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCu,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "tešgúdna"],
 	    [:Common, :Singular, :Person1, "ášgud"],
@@ -9304,7 +9305,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["sōdnāb ká̄ka"]]
     }
@@ -9317,7 +9318,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "tésnīn(a)"],
 	    [:Common, :Plural, :Person3, "ésnīn(a)"],
@@ -9376,7 +9377,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["sí̄sabrat"]]
     }
@@ -9464,7 +9465,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["í̄d’am ándi"]]
     }
@@ -9511,7 +9512,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "bá̄īmhag"],
 	    [:Fem, :Singular, :Person3, "bá̄tīmhag"],
@@ -9531,7 +9532,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "í̄tu’ téndia"],
 	    	    [:Common, :Singular, :Person1, "í̄tu’ ándi"],
@@ -9597,7 +9598,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "dá̄I kíddia"],
 	    	    	    	    	    	    	    [:Common, :Singular, :Person1, "dá̄I kādi"]]
@@ -9629,7 +9630,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "dú̄tīb hérrīwa"],
 	    	    [:Common, :Singular, :Person1, "dú̄tīb hérriu"],
@@ -9648,7 +9649,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["será̄boid hérriu"]]
     }
@@ -9680,7 +9681,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "támtai"],
 	    [:Common, :Plural, :Person2, "támtān(a)"],
@@ -9700,7 +9701,7 @@
              :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "nédmim"],
 	    [:Masc, :Singular, :Person3, "édmim"],
@@ -9719,7 +9720,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["dá̄man"]]
     }
@@ -9772,7 +9773,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "tamámtīb hérrīwa"],
 	    	    [:Fem, :Singular, :Person2, "tamámtīb hérrīwi"],
@@ -9787,7 +9788,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "támi kíddīna"],
 	    [:Common, :Plural, :Person1, "támi kíndi"],
@@ -9827,7 +9828,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCu,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["šúgudāb ká̄ka"]]
     }
@@ -9859,7 +9860,7 @@
              :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "démima"],
 	    [:Common, :Person1, "démmat"],
@@ -9873,7 +9874,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "támsati"],
 	    [:Common, :Plural, :Person1, "támsadēni"],
@@ -9908,7 +9909,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "wá̄li"],
 	    [:Masc, :Singular, :Person2, "wá̄lia"],
@@ -9927,7 +9928,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :Vdpth,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "bá̄rēwí̄(a)"],
 	    [:Fem, :Singular, :Person2, "ré̄wi"],
@@ -10026,7 +10027,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["séganfoid hérriu"]]
     }
@@ -10040,7 +10041,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "mitjá̄ta"],
 	    [:Masc, :Person3, "bá̄mitjāi"],
@@ -10057,7 +10058,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "sō’amat"],
 	    [:Masc, :Person3, "bāesú̄’am"]]
@@ -10088,7 +10089,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "é̄ān"],
 	    [:Common, :Plural, :Person1, "é̄na"],
@@ -10123,7 +10124,7 @@
              :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ábdāj"],
 	    [:Masc, :Singular, :Person3, "ébdāj"],
@@ -10163,7 +10164,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["í̄šbūb ándi"]]
     }
@@ -10178,7 +10179,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "sefōrata"],
 	    [:Common, :Person1, "sefōrat"],
@@ -10192,7 +10193,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "dúwan"],
 	    [:Common, :Plural, :Person3, "dú̄jān(a)"],
@@ -10211,7 +10212,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :Vdpth,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "kwá̄jān(a)"],
 	    [:Fem, :Singular, :Person2, "kwá̄i"],
@@ -10247,7 +10248,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "sīsánadé̄ni"],
 	    [:Masc, :Singular, :Person3, "bá̄esí̄sen"],
@@ -10271,7 +10272,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["éduloid hérriu"]]
     }
@@ -10305,7 +10306,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["úlwi hérriu"]]
     }
@@ -10402,7 +10403,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["ethájdāb ká̄ka"]]
     }
@@ -10419,7 +10420,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["sí̄sabrāb ká̄ka"]]
     }
@@ -10432,7 +10433,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "nemá̄su"],
 	    [:Masc, :Singular, :Person3, "emá̄su"],
@@ -10452,7 +10453,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "éstená̄jat"],
 	    [:Common, :Plural, :Person1, "estená̄jadé̄ni"],
@@ -10531,7 +10532,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "tōrāmat"],
 	    [:Masc, :Person2, "tōrāma"],
@@ -10545,7 +10546,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "támtīb kétharūn(a)"],
 	    [:Common, :Plural, :Person1, "támtīb kínharu"],
@@ -10565,7 +10566,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "gwi kíddia"],
 	    [:Common, :Singular, :Person1, "gwi ká̄di"],
@@ -10628,7 +10629,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    [:Masc, :Singular, :Person2, "dá̄tīb kétharu"],
 	    	    [:Common, :Singular, :Person1, "dá̄tīb kāheru"],
@@ -10659,7 +10660,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :Vdpth,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "réusta"],
 	    [:Masc, :Person3, "réusia"],
@@ -10745,7 +10746,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["iá̄l ká̄di"]]
     }
@@ -10759,7 +10760,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Fem, :Person2, "aré̄i"],
 	    [:Common, :Person1, "aré̄at"],
@@ -10812,7 +10813,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "dúwat"],
 	    [:Common, :Plural, :Person2, "dwatna"],
@@ -10972,7 +10973,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person3, "bá̄tehīd"],
 	    [:Common, :Plural, :Person1, "hájdadé̄ni"],
@@ -10995,7 +10996,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "áshajid"],
 	    [:Plural, "néshajid"]]
@@ -11012,7 +11013,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["dá̄mi ká̄di"]]
     }
@@ -11041,7 +11042,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "támami ándi"],
 	    	    [:Fem, :Singular, :Person2, "támami téndi"],
@@ -11061,7 +11062,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["esí̄sebir ándi"]]
     }
@@ -11092,7 +11093,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["esú̄’at ándi"]]
     }
@@ -11107,7 +11108,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :Vdpth,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["ré̄wiān"]]
     }
@@ -11123,7 +11124,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["esú̄din ká̄di"]]
     }
@@ -11138,7 +11139,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "úmbat"],
 	    [:Masc, :Person2, "úmba"],
@@ -11265,7 +11266,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "asō’am"],
 	    [:Plural, "nesō’am"]]
@@ -11297,7 +11298,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Fem, :Person2, "‘ámāt kítkai"],
 	    [:Common, :Person1, "‘ámāb[-āt]ká̄ka"],
@@ -11327,7 +11328,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "‘aj kétharu"],
 	    [:Common, :Plural, :Person1, "‘aj kínharu"],
@@ -11379,7 +11380,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["aré̄tīb hérrīu"]]
     }
@@ -11409,7 +11410,7 @@
              :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "háidat"],
 	    [:Masc, :Person3, "bāehá̄jid"],
@@ -11528,7 +11529,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "je’ám"],
 	    [:Fem, :Singular, :Person2, "te’ámi"],
@@ -11549,7 +11550,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "aré̄an"],
 	    [:Masc, :Person2, "aré̄ta"],
@@ -11601,7 +11602,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["atú̄rium ká̄di"]]
     }
@@ -11632,7 +11633,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "tégnafa"],
 	    [:Common, :Plural, :Person1, "négnaf"],
@@ -11663,7 +11664,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    [:Masc, :Singular, :Person2, "‘āt hérrīwa"],
 	    	    	    	    [:Common, :Singular, :Person1, "‘á̄t hérriu"]]
@@ -11677,7 +11678,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "bāī’átna"],
 	    [:Fem, :Singular, :Person3, "bá̄tī’at"],
@@ -11701,7 +11702,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["ásemhag"]]
     }
@@ -11750,7 +11751,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["bá̄dnāb ká̄ka"]]
     }
@@ -11764,7 +11765,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "egá̄jan"],
 	    [:Masc, :Person3, "egá̄ja"],
@@ -11781,7 +11782,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "sō’ata"],
 	    [:Masc, :Person3, "bāesú̄’at"],
@@ -11796,7 +11797,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "támtīb néheru"],
 	    [:Common, :Singular, :Person1, "támtīb hérriu"],
@@ -11819,7 +11820,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["gwásan"]]
     }
@@ -11871,7 +11872,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["ú̄e ándi"]]
     }
@@ -11917,7 +11918,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "sá’at"],
 	    [:Common, :Plural, :Person3, "bá̄īstá’na"],
@@ -11941,7 +11942,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["amé̄bidnoid hérriu"]]
     }
@@ -11972,7 +11973,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    	    [:Masc, :Singular, :Person2, "sōe kíddia"],
 	    	    	    	    [:Common, :Singular, :Person1, "sōe kādi"]]
@@ -12003,7 +12004,7 @@
 	                :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "é̄’esna"],
 	    [:Masc, :Singular, :Person3, "é̄’esije"],
@@ -12024,7 +12025,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    [:Masc, :Singular, :Person2, "úljāb kítka"],
 	    [:Common, :Singular, :Person1, "úljāb ká̄ka"],
@@ -12059,7 +12060,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ásbar"],
 	    [:Common, :Plural, :Person1, "nésbar"],
@@ -12076,7 +12077,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "rámāb kítka"],
 	    [:Fem, :Person2, "rámāt kítkai"],
@@ -12158,7 +12159,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :Vdpth,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "kwáijān"],
 	    [:Fem, :Singular, :Person2, "kwáitai"],
@@ -12193,7 +12194,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "bātámami"],
 	    [:Common, :Plural, :Person2, "tamámna"],
@@ -12284,7 +12285,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["somtīb̄ hérriu"]]
     }
@@ -12336,7 +12337,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCu,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["šúgud hérriu"]]
     }
@@ -12350,7 +12351,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person1, "nésrāb"],
 	    [:Common, :Singular, :Person1, "árāb"],
@@ -12388,7 +12389,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["esú̄din ándi"]]
     }
@@ -12403,7 +12404,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person3, "bāéstebir"],
 	    [:Masc, :Person2, "sébara(ta)"],
@@ -12454,7 +12455,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person3, "bāē’s…?"],
 	    [:Common, :Person1, "é̄’esat"],
@@ -12489,7 +12490,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["esmí̄su ándi"]]
     }
@@ -12519,7 +12520,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Fem, :Person2, "ūasí̄si"],
 	    [:Masc, :Person3, "bāú̄así̄si"],
@@ -12557,7 +12558,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["sefádgāb ká̄ka"]]
     }
@@ -12590,7 +12591,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["etú̄niw ká̄di"]]
     }
@@ -12624,7 +12625,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["súuloid hérriu"]]
     }
@@ -12641,7 +12642,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["šebōbāb ká̄ka"]]
     }
@@ -12696,7 +12697,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["dá̄mat"]]
     }
@@ -12740,7 +12741,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person2, "dá̄tān(a)"],
 	    [:Fem, :Singular, :Person3, "dá̄ta"],
@@ -12764,7 +12765,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["édul ándi"]]
     }
@@ -12779,7 +12780,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "etmehá̄gat"],
 	    [:Masc, :Person3, "bāétmeheg"]]
@@ -12793,7 +12794,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "sérābat"],
 	    [:Masc, :Singular, :Person2, "será̄bata"],
@@ -12828,7 +12829,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person3, "támamja"],
 	    [:Common, :Plural, :Person3, "támamjá̄n(a)"],
@@ -12852,7 +12853,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["amēdá̄nāb ká̄ka"]]
     }
@@ -12902,7 +12903,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["isá̄n ándi"]]
     }
@@ -12935,7 +12936,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["éngida ándi"]]
     }
@@ -13037,7 +13038,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "dá̄jāb ká̄ka"],
 	    	    	    	    	    [:Masc, :Singular, :Person2, "dá̄jāb kítka"],
@@ -13056,7 +13057,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["ríbjēb ká̄heru"]]
     }
@@ -13085,7 +13086,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCu,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "šúgudi"],
 	    [:Masc, :Singular, :Person3, "bá̄īšgud"],
@@ -13109,7 +13110,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["ú̄atīb hérriu"]]
     }
@@ -13155,7 +13156,7 @@
              :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "tehá̄ida"],
 	    [:Masc, :Singular, :Person3, "ehá̄id"],
@@ -13171,7 +13172,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "témhagi"],
 	    [:Common, :Plural, :Person2, "temhágna"],
@@ -13194,7 +13195,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["dámāb ká̄ka"]]
     }
@@ -13211,7 +13212,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["sōdnoid ká̄heru"]]
     }
@@ -13244,7 +13245,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "ášbōb"],
 	    [:Masc, :Singular, :Person3, "éšbōb"],
@@ -13268,7 +13269,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["úlwi ká̄heru"]]
     }
@@ -13281,7 +13282,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Plural, :Person3, "bá̄īmsú̄n(a)"],
 	    [:Fem, :Singular, :Person3, "bá̄tīmsu"],
@@ -13354,7 +13355,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["esí̄sen ándi"]]
     }
@@ -13367,7 +13368,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "téfdigi"],
 	    [:Masc, :Singular, :Person3, "éfdig"],
@@ -13426,7 +13427,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["gwámāb ká̄ka"]]
     }
@@ -13439,7 +13440,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Masc, :Singular, :Person2, "tamamāb kítka"],
 	    	    	    [:Fem, :Singular, :Person2, "tamamāt kítkai"],
@@ -13471,7 +13472,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    [:Common, :Singular, :Person1, "í̄din ándi"],
 	    [:Masc, :Singular, :Person2, "í̄din téndia"],
@@ -13506,7 +13507,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person3, "bāésfedig"],
 	    [:Common, :Person1, "sefádgat"]]
@@ -13524,7 +13525,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["ásganif"]]
     }
@@ -13537,7 +13538,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "tamsāt kíkai"],
 	    [:Common, :Singular, :Person1, "tamsāb ká̄ka"],
@@ -13556,7 +13557,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:number, :token]  ;; schema
 	    [:Singular, "áskatim"],
 	    [:Plural, "néskatim"]]
@@ -13573,7 +13574,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:number, :token]  ;; schema
 	    [:Plural, "néskatīm"],
 	    [:Singular, "áskatīm"]]
@@ -13680,7 +13681,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["irá̄b ándi"]]
     }
@@ -13696,7 +13697,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :Vdpth,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["réusaman"]]
     }
@@ -13763,7 +13764,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person3, "bāédganif"],
 	    [:Common, :Person1, "génafat"],
@@ -13782,7 +13783,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["éduloid ká̄heru"]]
     }
@@ -13799,7 +13800,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCC,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["así̄sabir"]]
     }
@@ -13815,7 +13816,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V2,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:token]  ;; schema
 	    ["tiffōjat"]]
     }
@@ -13842,7 +13843,7 @@
 	                :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :C,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Fem, :Singular, :Person2, "támstai"],
 	    [:Fem, :Singular, :Person3, "támsta"],
@@ -13879,7 +13880,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    	    	    [:Common, :Singular, :Person1, "í̄tu’ ká̄di"],
 	    	    	    	    [:Masc, :Singular, :Person2, "í̄tu’ kíddia"],
@@ -13916,7 +13917,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Masc, :Person2, "átōná̄wa"],
 	    [:Masc, :Person3, "bāetú̄niw"],
@@ -13955,7 +13956,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["atōnwoid ká̄heru"]]
     }
@@ -14005,7 +14006,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:gender, :number, :person, :token]  ;; schema
             [:Common, :Singular, :Person1, "tā’ ká̄heru"],
 	    [:Masc, :Singular, :Person2, "tā’ kétharu"],
@@ -14024,7 +14025,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CC,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["há’atīb hérriu"]]
     }
@@ -14041,7 +14042,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Future1}
+	    :tam :FutureComp1}
     :terms [[:token]  ;; schema
 	    ["sefōroid hérriu"]]
     }
@@ -14058,7 +14059,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCY,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["sefōrāb ká̄ka"]]
     }
@@ -14154,7 +14155,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Aorist}
+	    :tam :Future}
     :terms [[:gender, :number, :person, :token]  ;; schema
 	    [:Common, :Singular, :Person1, "áthajá̄dat"],
 	    [:Common, :Plural, :Person1, "athajá̄dadé̄ni"],
@@ -14171,7 +14172,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :CCCa,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:gender, :person, :token]  ;; schema
 	    [:Common, :Person1, "átmehāg"],
 	    [:Masc, :Person3, "étmehāg"]]
@@ -14189,7 +14190,7 @@
             :polarity :Negative,
 	    :pos :Verb,
 	    :rootClass :CCCi,
-	    :tam :Perfect}
+	    :tam :Past}
     :terms [[:token]  ;; schema
 	    ["kétmāb ká̄ka"]]
     }
@@ -14205,7 +14206,7 @@
             :polarity :Affirmative,
 	    :pos :Verb,
 	    :rootClass :V,
-	    :tam :Future2}
+	    :tam :FutureComp2}
     :terms [[:token]  ;; schema
 	    ["dá̄stīd hérriu"]]
     }
@@ -14520,101 +14521,101 @@
 	    :morphClass :SubjMarker}
     :terms [[:gender, :number, :person, :polarity, :tam, :token]  ;; schema
 	    [:Common, :Plural, :Person2, :Affirmative, :Present, "-tān(a)"],
-	    [:Common, :Plural, :Person3, :Negative, :Future1, "-I kīdīn(a)"],
-	    [:Masc, :Singular, :Person2, :Affirmative, :Aorist, "-ata"],
+	    [:Common, :Plural, :Person3, :Negative, :FutureComp1, "-I kīdīn(a)"],
+	    [:Masc, :Singular, :Person2, :Affirmative, :Future, "-ata"],
 	    [:Common, :Plural, :Person2, :Negative, :Imperative, "bā---ān(a)"],
-	    [:Fem, :Singular, :Person2, :Affirmative, :Future2, "hérrīwi"],
+	    [:Fem, :Singular, :Person2, :Affirmative, :FutureComp2, "hérrīwi"],
 	    [:Fem, :Singular, :Person2, :Negative, :Imperative, "bī---i"],
-	    [:Common, :Singular, :Person1, :Affirmative, :Future1, "-i ándi"],
-	    [:Common, :Singular, :Person1, :Negative, :Future1, "-i ká̄di"],
-	    [:Common, :Singular, :Person1, :Affirmative, :Aorist, "-at"],
+	    [:Common, :Singular, :Person1, :Affirmative, :FutureComp1, "-i ándi"],
+	    [:Common, :Singular, :Person1, :Negative, :FutureComp1, "-i ká̄di"],
+	    [:Common, :Singular, :Person1, :Affirmative, :Future, "-at"],
 	    [:Masc, :Singular, :Person3, :Affirmative, :Conditional, "-īnjēk"],
-	    [:Fem, :Singular, :Person3, :Negative, :Future2, "-iot kítharu"],
-	    [:Masc, :Singular, :Person3, :Negative, :Future2, "-tīb kīharu"],
+	    [:Fem, :Singular, :Person3, :Negative, :FutureComp2, "-iot kítharu"],
+	    [:Masc, :Singular, :Person3, :Negative, :FutureComp2, "-tīb kīharu"],
 	    [:Common, :Plural, :Person2, :Affirmative, :Conditional, "-tēnēk"],
-	    [:Common, :Plural, :Person1, :Affirmative, :Future2, "néheru"],
+	    [:Common, :Plural, :Person1, :Affirmative, :FutureComp2, "néheru"],
 	    [:Common, :Plural, :Person3, :Negative, :Optative, "bā---aja"],
-	    [:Masc, :Singular, :Person2, :Negative, :Future1, "-i kíddia"],
-	    [:Fem, :Singular, :Person3, :Affirmative, :Future1, "-I téndi"],
-	    [:Common, :Plural, :Person1, :Negative, :Perfect, "-āb/-āt kínka ~ kínke"],
+	    [:Masc, :Singular, :Person2, :Negative, :FutureComp1, "-i kíddia"],
+	    [:Fem, :Singular, :Person3, :Affirmative, :FutureComp1, "-I téndi"],
+	    [:Common, :Plural, :Person1, :Negative, :Past, "-āb/-āt kínka ~ kínke"],
 	    [:Common, :Plural, :Person2, :Negative, :Present, "ka---tān(a)"],
-	    [:Masc, :Singular, :Person3, :Negative, :Perfect, "-āb kīka ~ kīke"],
-	    [:Masc, :Singular, :Person3, :Affirmative, :Future2, "hérri"],
+	    [:Masc, :Singular, :Person3, :Negative, :Past, "-āb kīka ~ kīke"],
+	    [:Masc, :Singular, :Person3, :Affirmative, :FutureComp2, "hérri"],
 	    [:Masc, :Singular, :Person2, :Negative, :Present, "ka---ta"],
-	    [:Fem, :Singular, :Person2, :Affirmative, :Future1, "-I téndi"],
+	    [:Fem, :Singular, :Person2, :Affirmative, :FutureComp1, "-I téndi"],
 	    [:Common, :Plural, :Person3, :Affirmative, :Conditional, "-ēnek"],
-	    [:Fem, :Singular, :Person2, :Affirmative, :Aorist, "-ati"],
+	    [:Fem, :Singular, :Person2, :Affirmative, :Future, "-ati"],
 	    [:Fem, :Singular, :Person2, :Negative, :Conditional, "bit---ajēk"],
-	    [:Common, :Plural, :Person3, :Negative, :Future2, "-tīb/-iot kíharūn(a)"],
+	    [:Common, :Plural, :Person3, :Negative, :FutureComp2, "-tīb/-iot kíharūn(a)"],
 	    [:Fem, :Singular, :Person2, :Negative, :Optative, "bā---aitwi"],
 	    [:Common, :Plural, :Person1, :Negative, :Present, "ka---na"],
-	    [:Common, :Plural, :Person2, :Negative, :Future1, "-I kíddīn(a)"],
-	    [:Masc, :Singular, :Person2, :Affirmative, :Future1, "-i téndia"],
-	    [:Common, :Plural, :Person1, :Negative, :Future1, "-I kíndi"],
+	    [:Common, :Plural, :Person2, :Negative, :FutureComp1, "-I kíddīn(a)"],
+	    [:Masc, :Singular, :Person2, :Affirmative, :FutureComp1, "-i téndia"],
+	    [:Common, :Plural, :Person1, :Negative, :FutureComp1, "-I kíndi"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Imperative, "-a"],
 	    [:Common, :Plural, :Person3, :Negative, :Imperative, "bī---ēn(a)"],
 	    [:Fem, :Singular, :Person3, :Affirmative, :Conditional, "-tenjēk"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Present, "-ta"],
 	    [:Common, :Plural, :Person3, :Negative, :Conditional, "bī---ainēk"],
-	    [:Masc, :Singular, :Person2, :Affirmative, :Future2, "hérrīwa"],
+	    [:Masc, :Singular, :Person2, :Affirmative, :FutureComp2, "hérrīwa"],
 	    [:Common, :Plural, :Person2, :Affirmative, :Imperative, "-na"],
 	    [:Common, :Plural, :Person3, :Affirmative, :Present, "-jān(a)"],
 	    [:Common, :Singular, :Person1, :Negative, :Conditional, "bā-ajēk"],
-	    [:Common, :Singular, :Person1, :Negative, :Perfect, "-āb ká̄ka ~ ká̄ke"],
+	    [:Common, :Singular, :Person1, :Negative, :Past, "-āb ká̄ka ~ ká̄ke"],
 	    [:Masc, :Singular, :Person2, :Negative, :Optative, "bā---aiwa"],
 	    [:Fem, :Singular, :Person2, :Negative, :Present, "ka---tai"],
 	    [:Masc, :Singular, :Person2, :Negative, :Imperative, "bā---a"],
 	    [:Fem, :Singular, :Person3, :Negative, :Optative, "bā---aitu"],
 	    [:Common, :Plural, :Person3, :Negative, :Present, "ka---jān(a)"],
-	    [:Fem, :Singular, :Person3, :Affirmative, :Aorist, "bā---ti"],
+	    [:Fem, :Singular, :Person3, :Affirmative, :Future, "bā---ti"],
 	    [:Common, :Plural, :Person1, :Affirmative, :Conditional, "-nējēk"],
-	    [:Common, :Plural, :Person1, :Affirmative, :Aorist, "-adēni"],
+	    [:Common, :Plural, :Person1, :Affirmative, :Future, "-adēni"],
 	    [:Common, :Singular, :Person1, :Affirmative, :Present, "-an"],
 	    [:Masc, :Singular, :Person3, :Affirmative, :Present, "-ja"],
 	    [:Fem, :Singular, :Person2, :Affirmative, :Imperative, "-i"],
-	    [:Common, :Plural, :Person1, :Affirmative, :Future1, "-I nījed"],
-	    [:Masc, :Singular, :Person3, :Affirmative, :Future1, "-I éndi"],
-	    [:Masc, :Singular, :Person3, :Negative, :Future1, "-I kīdi"],
+	    [:Common, :Plural, :Person1, :Affirmative, :FutureComp1, "-I nījed"],
+	    [:Masc, :Singular, :Person3, :Affirmative, :FutureComp1, "-I éndi"],
+	    [:Masc, :Singular, :Person3, :Negative, :FutureComp1, "-I kīdi"],
 	    [:Common, :Plural, :Person1, :Negative, :Optative, "bā---aja"],
-	    [:Fem, :Singular, :Person2, :Negative, :Future1, "-i kíddi"],
+	    [:Fem, :Singular, :Person2, :Negative, :FutureComp1, "-i kíddi"],
 	    [:Common, :Singular, :Person1, :Negative, :Present, "ka---an"],
 	    [:Common, :Plural, :Person2, :Negative, :Conditional, "bit---ainēk"],
-	    [:Fem, :Singular, :Person3, :Affirmative, :Future2, "hérri"],
-	    [:Masc, :Singular, :Person2, :Negative, :Perfect, "-āb kítka"],
+	    [:Fem, :Singular, :Person3, :Affirmative, :FutureComp2, "hérri"],
+	    [:Masc, :Singular, :Person2, :Negative, :Past, "-āb kítka"],
 	    [:Masc, :Singular, :Person3, :Negative, :Present, "ka---ja"],
-	    [:Fem, :Singular, :Person3, :Negative, :Future1, "-I kíddi"],
-	    [:Fem, :Singular, :Person2, :Negative, :Future2, "-iot kétharu"],
+	    [:Fem, :Singular, :Person3, :Negative, :FutureComp1, "-I kíddi"],
+	    [:Fem, :Singular, :Person2, :Negative, :FutureComp2, "-iot kétharu"],
 	    [:Common, :Plural, :Person2, :Negative, :Optative, "bā---ajān"],
-	    [:Common, :Plural, :Person2, :Negative, :Perfect, "-āb/-āt kítkēn"],
+	    [:Common, :Plural, :Person2, :Negative, :Past, "-āb/-āt kítkēn"],
 	    [:Masc, :Singular, :Person3, :Negative, :Imperative, "bī---e"],
-	    [:Common, :Plural, :Person1, :Negative, :Future2, "-tīb/-iot kínharu"],
+	    [:Common, :Plural, :Person1, :Negative, :FutureComp2, "-tīb/-iot kínharu"],
 	    [:Masc, :Singular, :Person3, :Negative, :Optative, "bā---aju"],
 	    [:Common, :Plural, :Person1, :Negative, :Conditional, "bin---ajēk"],
-	    [:Common, :Plural, :Person2, :Affirmative, :Future1, "tiádna"],
-	    [:Common, :Plural, :Person3, :Affirmative, :Future1, "iádna"],
+	    [:Common, :Plural, :Person2, :Affirmative, :FutureComp1, "tiádna"],
+	    [:Common, :Plural, :Person3, :Affirmative, :FutureComp1, "iádna"],
 	    [:Fem, :Singular, :Person2, :Affirmative, :Present, "-tai"],
 	    [:Common, :Singular, :Person1, :Affirmative, :Conditional, "-anjēk"],
-	    [:Common, :Singular, :Person1, :Affirmative, :Future2, "hérriu"],
+	    [:Common, :Singular, :Person1, :Affirmative, :FutureComp2, "hérriu"],
 	    [:Masc, :Singular, :Person3, :Negative, :Conditional, "bī---ajēk"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Conditional, "-tenjēk"],
-	    [:Common, :Plural, :Person3, :Negative, :Perfect, "-āb/-āt kīkēn"],
-	    [:Masc, :Singular, :Person3, :Affirmative, :Aorist, "bā---i"],
+	    [:Common, :Plural, :Person3, :Negative, :Past, "-āb/-āt kīkēn"],
+	    [:Masc, :Singular, :Person3, :Affirmative, :Future, "bā---i"],
 	    [:Masc, :Singular, :Person2, :Negative, :Conditional, "bit---ajēk"],
-	    [:Common, :Plural, :Person2, :Affirmative, :Aorist, "-atna"],
-	    [:Fem, :Singular, :Person2, :Negative, :Perfect, "-āt kítkai"],
-	    [:Fem, :Singular, :Person3, :Negative, :Perfect, "-āt kítka ~ kítke"],
+	    [:Common, :Plural, :Person2, :Affirmative, :Future, "-atna"],
+	    [:Fem, :Singular, :Person2, :Negative, :Past, "-āt kítkai"],
+	    [:Fem, :Singular, :Person3, :Negative, :Past, "-āt kítka ~ kítke"],
 	    [:Fem, :Singular, :Person2, :Affirmative, :Conditional, "-tenjēk"],
-	    [:Common, :Plural, :Person2, :Negative, :Future2, "-tīb/-iot kétharū(a)"],
-	    [:Common, :Plural, :Person3, :Affirmative, :Future2, "éherūn"],
+	    [:Common, :Plural, :Person2, :Negative, :FutureComp2, "-tīb/-iot kétharū(a)"],
+	    [:Common, :Plural, :Person3, :Affirmative, :FutureComp2, "éherūn"],
 	    [:Fem, :Singular, :Person3, :Negative, :Imperative, "bit---e"],
-	    [:Masc, :Singular, :Person2, :Negative, :Future2, "-tīb kétharu"],
+	    [:Masc, :Singular, :Person2, :Negative, :FutureComp2, "-tīb kétharu"],
 	    [:Fem, :Singular, :Person3, :Affirmative, :Present, "-ta"],
-	    [:Common, :Singular, :Person1, :Negative, :Future2, "-tīb/-iot ká̄heru"],
+	    [:Common, :Singular, :Person1, :Negative, :FutureComp2, "-tīb/-iot ká̄heru"],
 	    [:Common, :Plural, :Person1, :Affirmative, :Present, "-na"],
 	    [:Common, :Singular, :Person1, :Negative, :Optative, "bā---aju"],
 	    [:Fem, :Singular, :Person3, :Negative, :Present, "ka---ta"],
-	    [:Common, :Plural, :Person2, :Affirmative, :Future2, "téherūna"],
-	    [:Common, :Plural, :Person3, :Affirmative, :Aorist, "bā---īn(a)"],
+	    [:Common, :Plural, :Person2, :Affirmative, :FutureComp2, "téherūna"],
+	    [:Common, :Plural, :Person3, :Affirmative, :Future, "bā---īn(a)"],
 	    [:Fem, :Singular, :Person3, :Negative, :Conditional, "bit---ajēk"]]
     }
     {:label "beja_A-PInd"
@@ -14957,18 +14958,18 @@
 	    :pos :Verb,
 	    :proClass :SubjMarker}
     :terms [[:gender, :number, :person, :polarity, :tam, :token]  ;; schema
-	    [:Common, :Plural, :Person3, :Affirmative, :Perfect, "e-na"],
+	    [:Common, :Plural, :Person3, :Affirmative, :Past, "e-na"],
 	    [:Common, :Plural, :Person1, :Affirmative, :Conditional, "ne…ēk"],
             [:Common, :Plural, :Person3, :Negative, :Present, "kī-na"],
-	    [:Masc, :Singular, :Person2, :Affirmative, :Aorist, "-ata"],
-	    [:Common, :Plural, :Person1, :Affirmative, :Perfect, "ne-"],
+	    [:Masc, :Singular, :Person2, :Affirmative, :Future, "-ata"],
+	    [:Common, :Plural, :Person1, :Affirmative, :Past, "ne-"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Conditional, "te…ēk"],
             [:Common, :Plural, :Person2, :Affirmative, :Imperative, "-na"],
 	    [:Fem, :Singular, :Person3, :Affirmative, :Present, "te…"],
             [:Masc, :Singular, :Person2, :Negative, :Optative, "bā…wa"],
 	    [:Fem, :Singular, :Person2, :Negative, :Present, "kit-i"],
-	    [:Masc, :Singular, :Person2, :Affirmative, :Future1, "i… téndia"],
-	    [:Common, :Plural, :Person2, :Affirmative, :Aorist, "-atna"],
+	    [:Masc, :Singular, :Person2, :Affirmative, :FutureComp1, "i… téndia"],
+	    [:Common, :Plural, :Person2, :Affirmative, :Future, "-atna"],
 	    [:Fem, :Singular, :Person2, :Negative, :Conditional, "bit…ēk"],
             [:Masc, :Singular, :Person3, :Negative, :Optative, "bā…u"],
 	    [:Common, :Plural, :Person2, :Negative, :Imperative, "bā…na"],
@@ -14984,52 +14985,52 @@
 	    [:Masc, :Singular, :Person2, :Negative, :Imperative, "bā…a"],
 	    [:Common, :Plural, :Person1, :Negative, :Optative, "bā…a"],
 	    [:Common, :Plural, :Person1, :Affirmative, :Present, "ne…"],
-            [:Common, :Singular, :Person1, :Negative, :Future1, "i…ká̄di"],
+            [:Common, :Singular, :Person1, :Negative, :FutureComp1, "i…ká̄di"],
 	    [:Common, :Plural, :Person3, :Affirmative, :Present, "e…na"],
             [:Fem, :Singular, :Person3, :Negative, :Imperative, "bit…"],
-	    [:Common, :Plural, :Person3, :Affirmative, :Aorist, "bāī…na"],
-	    [:Masc, :Singular, :Person2, :Negative, :Future1, "i… kíddia"],
+	    [:Common, :Plural, :Person3, :Affirmative, :Future, "bāī…na"],
+	    [:Masc, :Singular, :Person2, :Negative, :FutureComp1, "i… kíddia"],
 	    [:Common, :Singular, :Person1, :Negative, :Optative, "bā…u"],
 	    [:Masc, :Singular, :Person2, :Negative, :Conditional, "bit…ēk"],
 	    [:Common, :Singular, :Person1, :Affirmative, :Present, "a…"],
 	    [:Common, :Plural, :Person2, :Negative, :Optative, "bā…ān"],
 	    [:Common, :Singular, :Person1, :Negative, :Present, "kā-"],
-	    [:Common, :Plural, :Person2, :Affirmative, :Perfect, "te-na"],
-	    [:Masc, :Singular, :Person3, :Affirmative, :Aorist, "bāī…"],
+	    [:Common, :Plural, :Person2, :Affirmative, :Past, "te-na"],
+	    [:Masc, :Singular, :Person3, :Affirmative, :Future, "bāī…"],
 	    [:Common, :Plural, :Person3, :Negative, :Imperative, "bī…na"],
 	    [:Fem, :Singular, :Person3, :Negative, :Conditional, "bit…ēk"],
             [:Common, :Singular, :Person1, :Affirmative, :Conditional, "a…ēk"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Present, "te…a"],
 	    [:Common, :_NA, :_NA, :Affirmative, :Participle, "-a"],
-	    [:Fem, :Singular, :Person3, :Affirmative, :Aorist, "bātī…"],
+	    [:Fem, :Singular, :Person3, :Affirmative, :Future, "bātī…"],
 	    [:Common, :Singular, :Person1, :Negative, :Conditional, "bā…ēk"],
             [:Fem, :Singular, :Person2, :Negative, :Imperative, "bī…i"],
 	    [:Fem, :Singular, :Person3, :Negative, :Optative, "bā…tu"],
-	    [:Masc, :Singular, :Person2, :Affirmative, :Perfect, "te-a"],
-	    [:Masc, :Singular, :Person2, :Affirmative, :Future2, "…hérrīwa"],
-	    [:Common, :Singular, :Person1, :Affirmative, :Aorist, "-at"],
-	    [:Common, :Singular, :Person2, :Affirmative, :Future2, "…hérriu"],
+	    [:Masc, :Singular, :Person2, :Affirmative, :Past, "te-a"],
+	    [:Masc, :Singular, :Person2, :Affirmative, :FutureComp2, "…hérrīwa"],
+	    [:Common, :Singular, :Person1, :Affirmative, :Future, "-at"],
+	    [:Common, :Singular, :Person2, :Affirmative, :FutureComp2, "…hérriu"],
 	    [:Masc, :Singular, :Person2, :Negative, :Present, "kit-a"],
-	    [:Common, :Singular, :Person1, :Affirmative, :Perfect, "a-"],
+	    [:Common, :Singular, :Person1, :Affirmative, :Past, "a-"],
 	    [:Common, :Plural, :Person1, :Negative, :Conditional, "bin…ēk"],
 	    [:Common, :Plural, :Person2, :Negative, :Conditional, "bit…nēk"],
 	    [:Fem, :Singular, :Person2, :Affirmative, :Present, "te…i"],
-	    [:Common, :Singular, :Person1, :Negative, :Future2, "… ká̄heru"],
+	    [:Common, :Singular, :Person1, :Negative, :FutureComp2, "… ká̄heru"],
 	    [:Masc, :Singular, :Person2, :Affirmative, :Imperative, "-a"],
-            [:Masc, :Singular, :Person3, :Affirmative, :Perfect, "e-"],
-            [:Common, :Plural, :Person1, :Affirmative, :Aorist, "-adēni"],
-	    [:Common, :Singular, :Person1, :Affirmative, :Future1, "i… ándi"],
+            [:Masc, :Singular, :Person3, :Affirmative, :Past, "e-"],
+            [:Common, :Plural, :Person1, :Affirmative, :Future, "-adēni"],
+	    [:Common, :Singular, :Person1, :Affirmative, :FutureComp1, "i… ándi"],
 	    [:Common, :Plural, :Person3, :Negative, :Conditional, "bī…nēk"],
 	    [:Masc, :Singular, :Person3, :Affirmative, :Conditional, "e…ēk"],
 	    [:Common, :Plural, :Person3, :Negative, :Optative, "bā…a"],
 	    [:Common, :Plural, :Person1, :Negative, :Present, "kin-"],
-	    [:Fem, :Singular, :Person2, :Affirmative, :Aorist, "-ati"],
-	    [:Masc, :Singular, :Person2, :Negative, :Future2, "… kétharu"],
+	    [:Fem, :Singular, :Person2, :Affirmative, :Future, "-ati"],
+	    [:Masc, :Singular, :Person2, :Negative, :FutureComp2, "… kétharu"],
 	    [:Common, :Plural, :Person2, :Negative, :Present, "kit-na"],
 	    [:Fem, :Singular, :Person2, :Affirmative, :Conditional, "te…ēk"],
 	    [:Fem, :Singular, :Person2, :Negative, :Optative, "bā…twi"],
-	    [:Fem, :Singular, :Person3, :Affirmative, :Perfect, "te-"],
-	    [:Fem, :Singular, :Person2, :Affirmative, :Perfect, "te-i"],
+	    [:Fem, :Singular, :Person3, :Affirmative, :Past, "te-"],
+	    [:Fem, :Singular, :Person2, :Affirmative, :Past, "te-i"],
             [:Fem, :Singular, :Person3, :Negative, :Present, "kit-"],
             [:Masc, :Singular, :Person3, :Negative, :Imperative, "bī…"]]
     }
@@ -15189,25 +15190,25 @@
 	    :pos :Pronoun,
 	    :proClass :ObjSuffWithV}
     :terms [[:tam, :token, :token-note]  ;; schema
-	    [:Aorist, "sénīthōkna", "ich warter auf euch"],
-	    [:Aorist, "barú̄k sí̄sanhé̄ba", "du [Mann]lasst mich warten"],
+	    [:Future, "sénīthōkna", "ich warter auf euch"],
+	    [:Future, "barú̄k sí̄sanhé̄ba", "du [Mann]lasst mich warten"],
 	    [:Imperative, "ástēt hí̄n-o", "gebet ihm Geld!"],
 	    [:Imperative, "hatá̄j hí̄hēba", "gieb mir ein Pferd!"],
 	    [:Imperative, "awájehēb", "hilf mir!"],
-	    [:Aorist, "batú̄h bātesí̄sanhēb", "sie lasst mich warten"],
-	    [:Aorist, "batú̄k sí̄sanhé̄bi", "du [Frau]lasst mich warten"],
+	    [:Future, "batú̄h bātesí̄sanhēb", "sie lasst mich warten"],
+	    [:Future, "batú̄k sí̄sanhé̄bi", "du [Frau]lasst mich warten"],
 	    [:Imperative, "ulíje-hēb", "schlage mich!"],
-	    [:Aorist, "sí̄santōkna", "ich lasse euch warten"],
+	    [:Future, "sí̄santōkna", "ich lasse euch warten"],
 	    [:Imperative, "sénihēb", "warte auf mich!"],
-	    [:Aorist, "sí̄santōk", "ich lasse dich warten"],
-	    [:Aorist, "barú̄h bāesí̄sanhēb", "er lasst mich warten"],
-	    [:Aorist, "bará̄h ōtam bāijá̄hunōkna", "sie geben euch das Essen"],
-	    [:Aorist, "áne úlītōkna", "ich schlage euch"],
-	    [:Aorist, "sénītōk", "ich warte auf dich"],
-	    [:Aorist, "barú̄h ástet bāijá̄hu-hé̄b(a)", "er giebt mir Geld"],
+	    [:Future, "sí̄santōk", "ich lasse dich warten"],
+	    [:Future, "barú̄h bāesí̄sanhēb", "er lasst mich warten"],
+	    [:Future, "bará̄h ōtam bāijá̄hunōkna", "sie geben euch das Essen"],
+	    [:Future, "áne úlītōkna", "ich schlage euch"],
+	    [:Future, "sénītōk", "ich warte auf dich"],
+	    [:Future, "barú̄h ástet bāijá̄hu-hé̄b(a)", "er giebt mir Geld"],
 	    [:Imperative, "dábalo na híahēb", "gieb mir ein kleínes Stuck!"],
-	    [:Aorist, "áne rámtōk", "ich folge dir"],
-	    [:Aorist, "áne ástet hí̄tōh", "ich gebe ihm Geld."],
+	    [:Future, "áne rámtōk", "ich folge dir"],
+	    [:Future, "áne ástet hí̄tōh", "ich gebe ihm Geld."],
 	    [:Imperative, "tōásta híjōh", "gieb ihm das Geld!"]]
     }}
 }
