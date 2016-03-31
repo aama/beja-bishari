@@ -873,7 +873,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["í̄mhag ándi"]]
+	["í̄mhag ándi"]]
     }
     {:label "beja_A-VPref2CCC-aBaseAffFut2-mehag"
     :note "Almkvist1881 #265"
@@ -890,7 +890,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mehú̄g hérriu"]]
+	["mehú̄g hérriu"]]
     }
     {:label "beja_A-VPref2CCC-aBaseAffImprtv-mehag"
     :note "Almkvist1881 #265"
@@ -921,7 +921,7 @@
             :pos :Verb,
             :derivedStem :Base}
     :terms [[:token] ;; schema
-(["mehága"]]
+	["mehága"]]
     }
     {:label "beja_A-VPref2CCC-aBaseAffPerf-mehag"
     :note "Almkvist1881 #265"
@@ -998,7 +998,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["í̄mhag ká̄di"]]
+	["í̄mhag ká̄di"]]
     }
     {:label "beja_A-VPref2CCC-aBaseNegFut2-mehag"
     :note "Almkvist1881 #265"
@@ -1015,7 +1015,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mehú̄̄g ká̄heru"]]
+	["mehú̄̄g ká̄heru"]]
     }
     {:label "beja_A-VPref2CCC-aBaseNegImprtv-mehag"
     :note "Almkvist1881 #265"
@@ -1070,7 +1070,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mehágāb[-āt]ká̄ka"]]
+	["mehágāb[-āt]ká̄ka"]]
     }
     {:label "beja_A-VPref2CCC-aBaseNegPres-mehag"
     :note "Almkvist1881 #265"
@@ -1107,7 +1107,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sémhagat"]]
+	["sémhagat"]]
     }
     {:label "beja_A-VPref2CCC-aCausAffFut1-mehag"
     :note "Almkvist1881 #265"
@@ -1124,7 +1124,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ésemhig ándi"]]
+	["ésemhig ándi"]]
     }
     {:label "beja_A-VPref2CCC-aCausAffImprtv-mehag"
     :note "Almkvist1881 #265"
@@ -1141,7 +1141,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sémhaga"]]
+	["sémhaga"]]
     }
     {:label "beja_A-VPref2CCC-aCausAffPerf-mehag"
     :note "Almkvist1881 #265"
@@ -1158,7 +1158,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ásemhag"]]
+	["ásemhag"]]
     }
     {:label "beja_A-VPref2CCC-aCausAffPres-mehag"
     :note "Almkvist1881 #265"
@@ -1175,7 +1175,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ásemhīg"]]
+	["ásemhīg"]]
     }
     {:label "beja_A-VPref2CCC-aCausNegFut2-mehag"
     :note "Almkvist1881 #265"
@@ -1192,7 +1192,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["semhágoid ká̄heru"]]
+	["semhágoid ká̄heru"]]
     }
     {:label "beja_A-VPref2CCC-aCausNegImprtv-mehag"
     :note "Almkvist1881 #265"
@@ -1209,7 +1209,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄semhí̄ga"]]
+	["bá̄semhí̄ga"]]
     }
     {:label "beja_A-VPref2CCC-aCausNegOpt-mehag"
     :note "Almkvist1881 #265"
@@ -1226,7 +1226,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["b’̄semhí̄gu"]]
+	["b’̄semhí̄gu"]]
     }
     {:label "beja_A-VPref2CCC-aCausNegPerf-mehag"
     :note "Almkvist1881 #265"
@@ -1243,7 +1243,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["semhágāb ká̄ka"]]
+	["semhágāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCC-aCausNegPres-mehag"
     :note "Almkvist1881 #265"
@@ -1260,7 +1260,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ká̄semhag"]]
+	["ká̄semhag"]]
     }
     {:label "beja_A-VPref2CCC-aPassAffAor-mehag"
     :note "Almkvist1881 #265"
@@ -1307,7 +1307,7 @@
             :derivedStem :M,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["etmehá̄goi"]]
+	["etmehá̄goi"]]
     }
     {:label "beja_A-VPref2CCC-aPassAffPerf-mehag"
     :note "Almkvist1881 #265"
@@ -1356,7 +1356,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāetméhīgēk"]]
+	["bāetméhīgēk"]]
     }
     {:label "beja_A-VPref2CCC-aPassNegImprtv-mehag"
     :note "Almkvist1881 #265"
@@ -1373,7 +1373,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāétmehí̄ga"]]
+	["bāétmehí̄ga"]]
     }
     {:label "beja_A-VPref2CCC-aPassNegOpt-mehag"
     :note "Almkvist1881 #265"
@@ -1390,7 +1390,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāétmehí̄gu"]]
+	["bāétmehí̄gu"]]
     }
     {:label "beja_A-VPref2CCC-aPassNegPerf-mehag"
     :note "Almkvist1881 #265"
@@ -1407,7 +1407,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["etmehá̄gab ká̄ka"]]
+	["etmehá̄gab ká̄ka"]]
     }
     {:label "beja_A-VPref2CCC-aPassNegPres-mehag"
     :note "Almkvist1881 #265"
@@ -1424,7 +1424,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ká̄tmehāg"]]
+	["ká̄tmehāg"]]
     }
     {:label "beja_A-VPref2CCC-iBaseAffAor-fedig"
     :note "Almkvist1881 #263"
@@ -1499,7 +1499,7 @@
             :derivedStem :Base,
             :tam :Conditional}
     :terms [[:token] ;; schema
-(["afándīgēk"]]
+	["afándīgēk"]]
     }
     {:label "beja_A-VPref2CCC-iBaseAffCond-hajid"
     :note "Almkvist1881 #263"
@@ -1516,7 +1516,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ahájjīdēk"]]
+	["ahájjīdēk"]]
     }
     {:label "beja_A-VPref2CCC-iBaseAffCond-ketim"
     :note "Almkvist1881 #263"
@@ -1532,7 +1532,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["akántīmēk"]]
+	["akántīmēk"]]
     }
     {:label "beja_A-VPref2CCC-iBaseAffImprtv-fedig"
     :note "Almkvist1881 #263"
@@ -1594,7 +1594,7 @@
             :derivedStem :Base,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["fedú̄g"]]
+	["fedú̄g"]]
     }
     {:label "beja_A-VPref2CCC-iBaseAffInfinitive-hajid"
     :note "Almkvist1881 #263"
@@ -1609,7 +1609,7 @@
             :derivedStem :Base,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["hajú̄d"]]
+	["hajú̄d"]]
     }
     {:label "beja_A-VPref2CCC-iBaseAffInfinitive-ketim"
     :note "Almkvist1881 #263"
@@ -1623,7 +1623,7 @@
             :derivedStem :Base,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["ketú̄m"]]
+	["ketú̄m"]]
     }
     {:label "beja_A-VPref2CCC-iBaseAffPerf-fedig"
     :note "Almkvist1881 #263"
@@ -1922,7 +1922,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["fédgāb ká̄ka"]]
+	["fédgāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCC-iBaseNegPerf-hajid"
     :note "Almkvist1881 #263"
@@ -1939,7 +1939,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["hájdāb ká̄ka"]]
+	["hájdāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCC-iBaseNegPerf-ketim"
     :note "Almkvist1881 #263"
@@ -1956,7 +1956,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kétmāb ká̄ka"]]
+	["kétmāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCC-iBaseNegPres-fedig"
     :note "Almkvist1881 #263"
@@ -2082,7 +2082,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["asfádīgēk"]]
+	["asfádīgēk"]]
     }
     {:label "beja_A-VPref2CCC-iCausAffCond-hajid"
     :note "Almkvist1881 #263"
@@ -2099,7 +2099,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ashájīdēk"]]
+	["ashájīdēk"]]
     }
     {:label "beja_A-VPref2CCC-iCausAffCond-ketim"
     :note "Almkvist1881 #263"
@@ -2116,7 +2116,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["askátīmēk"]]
+	["askátīmēk"]]
     }
     {:label "beja_A-VPref2CCC-iCausAffImprtv-fedig"
     :note "Almkvist1881 #263"
@@ -2133,7 +2133,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sefádiga"]]
+	["sefádiga"]]
     }
     {:label "beja_A-VPref2CCC-iCausAffImprtv-hajid"
     :note "Almkvist1881 #263"
@@ -2150,7 +2150,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sehájida"]]
+	["sehájida"]]
     }
     {:label "beja_A-VPref2CCC-iCausAffImprtv-ketim"
     :note "Almkvist1881 #263"
@@ -2167,7 +2167,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sekátima"]]
+	["sekátima"]]
     }
     {:label "beja_A-VPref2CCC-iCausAffInfin-fedig"
     :note "Almkvist1881 #263"
@@ -2181,7 +2181,7 @@
             :derivedStem :S,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["sefádgoi"]]
+	["sefádgoi"]]
     }
     {:label "beja_A-VPref2CCC-iCausAffInfin-hajid"
     :note "Almkvist1881 #263"
@@ -2195,7 +2195,7 @@
             :derivedStem :S,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["sehájdoi"]]
+	["sehájdoi"]]
     }
     {:label "beja_A-VPref2CCC-iCausAffInfin-ketim"
     :note "Almkvist1881 #263"
@@ -2210,7 +2210,7 @@
             :derivedStem :S,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["sekátmoi"]]
+	["sekátmoi"]]
     }
     {:label "beja_A-VPref2CCC-iCausAffPerf-fedig"
     :note "Almkvist1881 #263"
@@ -2329,7 +2329,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāsfádīgēk"]]
+	["bāsfádīgēk"]]
     }
     {:label "beja_A-VPref2CCC-iCausNegImprtv-fedig"
     :note "Almkvist1881 #263"
@@ -2346,7 +2346,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāsfadí̄ga"]]
+	["bāsfadí̄ga"]]
     }
     {:label "beja_A-VPref2CCC-iCausNegOpt-fedig"
     :note "Almkvist1881 #263"
@@ -2363,7 +2363,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāsfadí̄gu"]]
+	["bāsfadí̄gu"]]
     }
     {:label "beja_A-VPref2CCC-iCausNegPerf-fedig"
     :note "Almkvist1881 #263"
@@ -2380,7 +2380,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sefádgāb ká̄ka"]]
+	["sefádgāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCC-iCausNegPres-fedig"
     :note "Almkvist1881 #263"
@@ -2446,7 +2446,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["étfedīg ándi"]]
+	["étfedīg ándi"]]
     }
     {:label "beja_A-VPref2CCC-iPassAffFut1-hajid"
     :note "Almkvist1881 #263"
@@ -2463,7 +2463,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["étehīd ándi"]]
+	["étehīd ándi"]]
     }
     {:label "beja_A-VPref2CCC-iPassAffFut2-fedig"
     :note "Almkvist1881 #263"
@@ -2480,7 +2480,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["etfádgoid hérriu"]]
+	["etfádgoid hérriu"]]
     }
     {:label "beja_A-VPref2CCC-iPassAffFut2-hajid"
     :note "Almkvist1881 #263"
@@ -2497,7 +2497,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ethájdoid hérriu"]]
+	["ethájdoid hérriu"]]
     }
     {:label "beja_A-VPref2CCC-iPassAffPerf-fedig"
     :note "Almkvist1881 #263"
@@ -2580,7 +2580,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāetfádīgēk"]]
+	["bāetfádīgēk"]]
     }
     {:label "beja_A-VPref2CCC-iPassNegCond-hajid"
     :note "Almkvist1881 #263"
@@ -2597,7 +2597,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāethájīdēk"]]
+	["bāethájīdēk"]]
     }
     {:label "beja_A-VPref2CCC-iPassNegImprtv-fedig"
     :note "Almkvist1881 #263"
@@ -2614,7 +2614,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāétfadí̄ga"]]
+	["bāétfadí̄ga"]]
     }
     {:label "beja_A-VPref2CCC-iPassNegImprtv-hajid"
     :note "Almkvist1881 #263"
@@ -2631,7 +2631,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāéthají̄da"]]
+	["bāéthají̄da"]]
     }
     {:label "beja_A-VPref2CCC-iPassNegOpt-fedig"
     :note "Almkvist1881 #263"
@@ -2648,7 +2648,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāétfadí̄gu"]]
+	["bāétfadí̄gu"]]
     }
     {:label "beja_A-VPref2CCC-iPassNegOpt-hajid"
     :note "Almkvist1881 #263"
@@ -2665,7 +2665,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāéthají̄du"]]
+	["bāéthají̄du"]]
     }
     {:label "beja_A-VPref2CCC-iPassNegPerf-fedig"
     :note "Almkvist1881 #263"
@@ -2682,7 +2682,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["etfádgāb ká̄ka"]]
+	["etfádgāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCC-iPassNegPerf-hajid"
     :note "Almkvist1881 #263"
@@ -2699,7 +2699,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ethájdāb ká̄ka"]]
+	["ethájdāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCC-iPassNegPres-fedig"
     :note "Almkvist1881 #263"
@@ -2787,7 +2787,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["í̄šgud ándi"]]
+	["í̄šgud ándi"]]
     }
     {:label "beja_A-VPref2CCC-uBaseAffFut2-sugud"
     :note "Almkvist1881 #267"
@@ -2804,7 +2804,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["šúgud hérriu"]]
+	["šúgud hérriu"]]
     }
     {:label "beja_A-VPref2CCC-uBaseAffImp-sugud"
     :note "Almkvist1881 #267"
@@ -2877,7 +2877,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāšágwīdēk"]]
+	["bāšágwīdēk"]]
     }
     {:label "beja_A-VPref2CCC-uBaseNegImp-sugud"
     :note "Almkvist1881 #267"
@@ -2894,7 +2894,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāšagwí̄da"]]
+	["bāšagwí̄da"]]
     }
     {:label "beja_A-VPref2CCC-uBaseNegOpt-sugud"
     :note "Almkvist1881 #267"
@@ -2911,7 +2911,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāšagwí̄du"]]
+	["bāšagwí̄du"]]
     }
     {:label "beja_A-VPref2CCC-uBaseNegPerf-sugud"
     :note "Almkvist1881 #267"
@@ -2928,7 +2928,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["šúgudāb ká̄ka"]]
+	["šúgudāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCC-uBaseNegPres-sugud"
     :note "Almkvist1881 #267"
@@ -2944,7 +2944,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ká̄šgud"]]
+	["ká̄šgud"]]
     }
     {:label "beja_A-VPref2CCC-uCausAffAor-sugud"
     :note "Almkvist1881 #267"
@@ -2976,7 +2976,7 @@
             :derivedStem :S,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["šīšágudoi"]]
+	["šīšágudoi"]]
     }
     {:label "beja_A-VPref2CCC-uCausAffPart-sugud"
     :note "Almkvist1881 #267"
@@ -2991,7 +2991,7 @@
             :pos :Verb,
             :derivedStem :S}
     :terms [[:token] ;; schema
-(["šīšáguda"]]
+	["šīšáguda"]]
     }
     {:label "beja_A-VPref2CCC-uCausAffPerf-sugud"
     :note "Almkvist1881 #267"
@@ -3107,7 +3107,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["éštaguá̄dat"]]
+	["éštaguá̄dat"]]
     }
     {:label "beja_A-VPref2CCC-uPassAffInf-sugud"
     :note "Almkvist1881 #267"
@@ -3122,7 +3122,7 @@
             :derivedStem :M,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["eštagwá̄doi"]]
+	["eštagwá̄doi"]]
     }
     {:label "beja_A-VPref2CCC-uPassAffPart-sugud"
     :note "Almkvist1881 #267"
@@ -3136,7 +3136,7 @@
             :pos :Verb,
             :derivedStem :M}
     :terms [[:token] ;; schema
-(["éštagwá̄da"]]
+	["éštagwá̄da"]]
     }
     {:label "beja_A-VPref2CCC-uPassAffPerf-sugud"
     :note "Almkvist1881 #267"
@@ -3153,7 +3153,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["áštagwād"]]
+	["áštagwād"]]
     }
     {:label "beja_A-VPref2CCC-uPassAffPres-sugud"
     :note "Almkvist1881 #267"
@@ -3170,7 +3170,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["áštagwīd"]]
+	["áštagwīd"]]
     }
     {:label "beja_A-VPref2CCCausAffAor-at"
     :note "Almkvist1881 #249"
@@ -3223,7 +3223,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["asō’ītēk"]]
+	["asō’ītēk"]]
     }
     {:label "beja_A-VPref2CCCausAffCond-din"
     :note "Almkvist1881 #249"
@@ -3240,7 +3240,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["asōdīnēk"]]
+	["asōdīnēk"]]
     }
     {:label "beja_A-VPref2CCCausAffFut1-at"
     :note "Almkvist1881 #249"
@@ -3257,7 +3257,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["esú̄’at ándi"]]
+	["esú̄’at ándi"]]
     }
     {:label "beja_A-VPref2CCCausAffFut1-din"
     :note "Almkvist1881 #249"
@@ -3274,7 +3274,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["esú̄din ándi"]]
+	["esú̄din ándi"]]
     }
     {:label "beja_A-VPref2CCCausAffFut2-at"
     :note "Almkvist1881 #249"
@@ -3291,7 +3291,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sō’toid hérriu"]]
+	["sō’toid hérriu"]]
     }
     {:label "beja_A-VPref2CCCausAffFut2-din"
     :note "Almkvist1881 #249"
@@ -3308,7 +3308,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōnoi hérriu"]]
+	["sōnoi hérriu"]]
     }
     {:label "beja_A-VPref2CCCausAffImprtv-at"
     :note "Almkvist1881 #249"
@@ -3461,7 +3461,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["esú̄’at ká̄di"]]
+	["esú̄’at ká̄di"]]
     }
     {:label "beja_A-VPref2CCCausNegFut1-din"
     :note "Almkvist1881 #249"
@@ -3477,7 +3477,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["esú̄din ká̄di"]]
+	["esú̄din ká̄di"]]
     }
     {:label "beja_A-VPref2CCCausNegFut2-at"
     :note "Almkvist1881 #249"
@@ -3494,7 +3494,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sō̄’toid ká̄heru"]]
+	["sō̄’toid ká̄heru"]]
     }
     {:label "beja_A-VPref2CCCausNegFut2-din"
     :note "Almkvist1881 #249"
@@ -3511,7 +3511,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōdnoid ká̄heru"]]
+	["sōdnoid ká̄heru"]]
     }
     {:label "beja_A-VPref2CCCausNegImprtv-din"
     :note "Almkvist1881 #249"
@@ -3589,7 +3589,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sō’tāb ká̄ka"]]
+	["sō’tāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCCausNegPerf-din"
     :note "Almkvist1881 #249"
@@ -3606,7 +3606,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōdnāb ká̄ka"]]
+	["sōdnāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCCausNegPres-at"
     :note "Almkvist1881 #249"
@@ -3766,7 +3766,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["irá̄b ándi"]]
+	["irá̄b ándi"]]
     }
     {:label "beja_A-VPref2CCYBaseAffFut1-sny"
     :note "Almkvist1881 #255"
@@ -3783,7 +3783,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["isá̄n ándi"]]
+	["isá̄n ándi"]]
     }
     {:label "beja_A-VPref2CCYBaseAffFut1-uly"
     :note "Almkvist1881 #255"
@@ -3800,7 +3800,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["iá̄l ándi"]]
+	["iá̄l ándi"]]
     }
     {:label "beja_A-VPref2CCYBaseAffFut2-rby"
     :note "Almkvist1881 #255"
@@ -3817,7 +3817,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ríbjēb hérriu"]]
+	["ríbjēb hérriu"]]
     }
     {:label "beja_A-VPref2CCYBaseAffFut2-sny"
     :note "Almkvist1881 #255"
@@ -3834,7 +3834,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mísnai hérriu"]]
+	["mísnai hérriu"]]
     }
     {:label "beja_A-VPref2CCYBaseAffFut2-uly"
     :note "Almkvist1881 #255"
@@ -3851,7 +3851,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["úlwi hérriu"]]
+	["úlwi hérriu"]]
     }
     {:label "beja_A-VPref2CCYBaseAffImprtv-rby"
     :note "Almkvist1881 #255"
@@ -4096,7 +4096,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["irá̄b ká̄di"]]
+	["irá̄b ká̄di"]]
     }
     {:label "beja_A-VPref2CCYBaseNegFut1-sny"
     :note "Almkvist1881 #255"
@@ -4113,7 +4113,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["isá̄n ká̄di"]]
+	["isá̄n ká̄di"]]
     }
     {:label "beja_A-VPref2CCYBaseNegFut1-uly"
     :note "Almkvist1881 #255"
@@ -4129,7 +4129,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["iá̄l ká̄di"]]
+	["iá̄l ká̄di"]]
     }
     {:label "beja_A-VPref2CCYBaseNegFut2-rby"
     :note "Almkvist1881 #255"
@@ -4146,7 +4146,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ríbjēb ká̄heru"]]
+	["ríbjēb ká̄heru"]]
     }
     {:label "beja_A-VPref2CCYBaseNegFut2-sny"
     :note "Almkvist1881 #255"
@@ -4163,7 +4163,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mísnai ká̄heru"]]
+	["mísnai ká̄heru"]]
     }
     {:label "beja_A-VPref2CCYBaseNegFut2-uly"
     :note "Almkvist1881 #255"
@@ -4180,7 +4180,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["úlwi ká̄heru"]]
+	["úlwi ká̄heru"]]
     }
     {:label "beja_A-VPref2CCYBaseNegImprtv-rby"
     :note "Almkvist1881 #255"
@@ -4530,7 +4530,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ésreb ándi"]]
+	["ésreb ándi"]]
     }
     {:label "beja_A-VPref2CCYCausAffFut1-sny"
     :note "Almkvist1881 #255"
@@ -4547,7 +4547,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["esí̄sen ándi"]]
+	["esí̄sen ándi"]]
     }
     {:label "beja_A-VPref2CCYCausAffFut1-uly"
     :note "Almkvist1881 #255"
@@ -4564,7 +4564,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ésul ándi"]]
+	["ésul ándi"]]
     }
     {:label "beja_A-VPref2CCYCausAffFut2-rby"
     :note "Almkvist1881 #255"
@@ -4581,7 +4581,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["será̄boid hérriu"]]
+	["será̄boid hérriu"]]
     }
     {:label "beja_A-VPref2CCYCausAffFut2-sny"
     :note "Almkvist1881 #255"
@@ -4598,7 +4598,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sí̄sanoid hérriu"]]
+	["sí̄sanoid hérriu"]]
     }
     {:label "beja_A-VPref2CCYCausAffFut2-uly"
     :note "Almkvist1881 #255"
@@ -4615,7 +4615,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["súuloid hérriu"]]
+	["súuloid hérriu"]]
     }
     {:label "beja_A-VPref2CCYCausAffImprtv-rby"
     :note "Almkvist1881 #255"
@@ -4782,7 +4782,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["baésuljēk"]]
+	["baésuljēk"]]
     }
     {:label "beja_A-VPref2CCYCausNegImprtv-uly"
     :note "Almkvist1881 #255"
@@ -4799,7 +4799,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāésulí̄a"]]
+	["bāésulí̄a"]]
     }
     {:label "beja_A-VPref2CCYCausNegOpt-uly"
     :note "Almkvist1881 #255"
@@ -4816,7 +4816,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāésulí̄u"]]
+	["bāésulí̄u"]]
     }
     {:label "beja_A-VPref2CCYCausNegPerf-uly"
     :note "Almkvist1881 #255"
@@ -4833,7 +4833,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["súuljāb ká̄ka"]]
+	["súuljāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCYCausNegPres-uly"
     :note "Almkvist1881 #255"
@@ -4850,7 +4850,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ká̄sul"]]
+	["ká̄sul"]]
     }
     {:label "beja_A-VPref2CCYPassAffAor-rby"
     :note "Almkvist1881 #255"
@@ -4971,7 +4971,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["étreb ándi"]]
+	["étreb ándi"]]
     }
     {:label "beja_A-VPref2CCYPassAffFut1-sny"
     :note "Almkvist1881 #255"
@@ -4988,7 +4988,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ésten ándi"]]
+	["ésten ándi"]]
     }
     {:label "beja_A-VPref2CCYPassAffFut1-uly"
     :note "Almkvist1881 #255"
@@ -5005,7 +5005,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["édul ándi"]]
+	["édul ándi"]]
     }
     {:label "beja_A-VPref2CCYPassAffFut2-rby"
     :note "Almkvist1881 #255"
@@ -5022,7 +5022,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["étraboid hérriu"]]
+	["étraboid hérriu"]]
     }
     {:label "beja_A-VPref2CCYPassAffFut2-sny"
     :note "Almkvist1881 #255"
@@ -5039,7 +5039,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["éstenoi hérriu"]]
+	["éstenoi hérriu"]]
     }
     {:label "beja_A-VPref2CCYPassAffFut2-uly"
     :note "Almkvist1881 #255"
@@ -5056,7 +5056,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["éduloid hérriu"]]
+	["éduloid hérriu"]]
     }
     {:label "beja_A-VPref2CCYPassAffPerf-rby"
     :note "Almkvist1881 #255"
@@ -5198,7 +5198,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["édul ká̄di"]]
+	["édul ká̄di"]]
     }
     {:label "beja_A-VPref2CCYPassNegFut2-uly"
     :note "Almkvist1881 #255"
@@ -5215,7 +5215,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["éduloid ká̄heru"]]
+	["éduloid ká̄heru"]]
     }
     {:label "beja_A-VPref2CCYPassNegImprtv-uly"
     :note "Almkvist1881 #255"
@@ -5270,7 +5270,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["éduljāb ká̄ka"]]
+	["éduljāb ká̄ka"]]
     }
     {:label "beja_A-VPref2CCYPassNegPres-uly"
     :note "Almkvist1881 #255"
@@ -5415,7 +5415,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["í̄d’am ándi"]]
+	["í̄d’am ándi"]]
     }
     {:label "beja_A-VPref3CCBaseAffFut1-ram"
     :note "Almkvist1881 #273"
@@ -5432,7 +5432,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["í̄tram ándi"]]
+	["í̄tram ándi"]]
     }
     {:label "beja_A-VPref3CCBaseAffFut1-sa"
     :note "Almkvist1881 #273"
@@ -5449,7 +5449,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["í̄sta’ ándi"]]
+	["í̄sta’ ándi"]]
     }
     {:label "beja_A-VPref3CCBaseAffFut2-am"
     :note "Almkvist1881 #273"
@@ -5466,7 +5466,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ma’ám hérriu"]]
+	["ma’ám hérriu"]]
     }
     {:label "beja_A-VPref3CCBaseAffFut2-ram"
     :note "Almkvist1881 #273"
@@ -5483,7 +5483,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mará̄m hérriu"]]
+	["mará̄m hérriu"]]
     }
     {:label "beja_A-VPref3CCBaseAffFut2-sa"
     :note "Almkvist1881 #273"
@@ -5500,7 +5500,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mí̄sa’ hérriu"]]
+	["mí̄sa’ hérriu"]]
     }
     {:label "beja_A-VPref3CCBaseAffImp-am"
     :note "Almkvist1881 #273"
@@ -6068,7 +6068,7 @@
             :derivedStem :Base,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["wígnēf"]]
+	["wígnēf"]]
     }
     {:label "beja_A-VPref3CCCBaseAffInfin-sebar"
     :note "Almkvist1881 #278"
@@ -6083,7 +6083,7 @@
             :derivedStem :Base,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["místebir"]]
+	["místebir"]]
     }
     {:label "beja_A-VPref3CCCBaseAffPart-genaf"
     :note "Almkvist1881 #278"
@@ -6098,7 +6098,7 @@
             :pos :Verb,
             :derivedStem :Base}
     :terms [[:token] ;; schema
-(["génafa"]]
+	["génafa"]]
     }
     {:label "beja_A-VPref3CCCBaseAffPart-sebar"
     :note "Almkvist1881 #278"
@@ -6112,7 +6112,7 @@
             :pos :Verb,
             :derivedStem :Base}
     :terms [[:token] ;; schema
-(["sébara"]]
+	["sébara"]]
     }
     {:label "beja_A-VPref3CCCBaseAffPerf-genaf"
     :note "Almkvist1881 #278"
@@ -6210,7 +6210,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["éstebīr ká̄di"]]
+	["éstebīr ká̄di"]]
     }
     {:label "beja_A-VPref3CCCBaseNegFut2-sebar"
     :note "Almkvist1881 #278"
@@ -6227,7 +6227,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["místebīrt ká̄heru"]]
+	["místebīrt ká̄heru"]]
     }
     {:label "beja_A-VPref3CCCBaseNegImp-sebar"
     :note "Almkvist1881 #278"
@@ -6294,7 +6294,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["séganfat"]]
+	["séganfat"]]
     }
     {:label "beja_A-VPref3CCCCausAffAor-sebar"
     :note "Almkvist1881 #278"
@@ -6311,7 +6311,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sí̄sabrat"]]
+	["sí̄sabrat"]]
     }
     {:label "beja_A-VPref3CCCCausAffFut1-genaf"
     :note "Almkvist1881 #278"
@@ -6328,7 +6328,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ésgenif ándi"]]
+	["ésgenif ándi"]]
     }
     {:label "beja_A-VPref3CCCCausAffFut1-sebar"
     :note "Almkvist1881 #278"
@@ -6345,7 +6345,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["esí̄sebir ándi"]]
+	["esí̄sebir ándi"]]
     }
     {:label "beja_A-VPref3CCCCausAffFut2-genaf"
     :note "Almkvist1881 #278"
@@ -6362,7 +6362,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["séganfoid hérriu"]]
+	["séganfoid hérriu"]]
     }
     {:label "beja_A-VPref3CCCCausAffFut2-sebar"
     :note "Almkvist1881 #278"
@@ -6379,7 +6379,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sí̄sabroid hérriu"]]
+	["sí̄sabroid hérriu"]]
     }
     {:label "beja_A-VPref3CCCCausAffImp-genaf"
     :note "Almkvist1881 #278"
@@ -6396,7 +6396,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["segánifa"]]
+	["segánifa"]]
     }
     {:label "beja_A-VPref3CCCCausAffImp-sebar"
     :note "Almkvist1881 #278"
@@ -6413,7 +6413,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sīsábira"]]
+	["sīsábira"]]
     }
     {:label "beja_A-VPref3CCCCausAffPerf-genaf"
     :note "Almkvist1881 #278"
@@ -6430,7 +6430,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ásganif"]]
+	["ásganif"]]
     }
     {:label "beja_A-VPref3CCCCausAffPerf-sebar"
     :note "Almkvist1881 #278"
@@ -6447,7 +6447,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["así̄sabir"]]
+	["así̄sabir"]]
     }
     {:label "beja_A-VPref3CCCCausAffPres-genaf"
     :note "Almkvist1881 #278"
@@ -6464,7 +6464,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ásganīf"]]
+	["ásganīf"]]
     }
     {:label "beja_A-VPref3CCCCausAffPres-sebar"
     :note "Almkvist1881 #278"
@@ -6481,7 +6481,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["así̄sabīr"]]
+	["así̄sabīr"]]
     }
     {:label "beja_A-VPref3CCCCausNegImp-sebar"
     :note "Almkvist1881 #278"
@@ -6498,7 +6498,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāsí̄sabí̄ra"]]
+	["bāsí̄sabí̄ra"]]
     }
     {:label "beja_A-VPref3CCCCausNegOpt-sebar"
     :note "Almkvist1881 #278"
@@ -6515,7 +6515,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāsí̄sabí̄ru"]]
+	["bāsí̄sabí̄ru"]]
     }
     {:label "beja_A-VPref3CCCCausNegPerf-sebar"
     :note "Almkvist1881 #278"
@@ -6532,7 +6532,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sí̄sabrāb ká̄ka"]]
+	["sí̄sabrāb ká̄ka"]]
     }
     {:label "beja_A-VPref3CCCCausNegPres-sebar"
     :note "Almkvist1881 #278"
@@ -6549,7 +6549,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kāsí̄sabīr"]]
+	["kāsí̄sabīr"]]
     }
     {:label "beja_A-VPref3CCCausAffAor-am"
     :note "Almkvist1881 #273"
@@ -6659,7 +6659,7 @@
             :derivedStem :S,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["sō’amoi"]]
+	["sō’amoi"]]
     }
     {:label "beja_A-VPref3CCCausAffInfin-ram"
     :note "Almkvist1881 #273"
@@ -6674,7 +6674,7 @@
             :derivedStem :S,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["sor(i)moi"]]
+	["sor(i)moi"]]
     }
     {:label "beja_A-VPref3CCCausAffInfin-sa"
     :note "Almkvist1881 #273"
@@ -6689,7 +6689,7 @@
             :derivedStem :S,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["sōs’oi"]]
+	["sōs’oi"]]
     }
     {:label "beja_A-VPref3CCCausAffPart-am"
     :note "Almkvist1881 #273"
@@ -6703,7 +6703,7 @@
             :pos :Verb,
             :derivedStem :S}
     :terms [[:token] ;; schema
-(["sō’ama"]]
+	["sō’ama"]]
     }
     {:label "beja_A-VPref3CCCausAffPart-ram"
     :note "Almkvist1881 #273"
@@ -6716,7 +6716,7 @@
             :pos :Verb,
             :rootClass :CC}
     :terms [[:token] ;; schema
-(["sōr(i)ma"]]
+	["sōr(i)ma"]]
     }
     {:label "beja_A-VPref3CCCausAffPart-sa"
     :note "Almkvist1881 #273"
@@ -6731,7 +6731,7 @@
             :pos :Verb,
             :derivedStem :S}
     :terms [[:token] ;; schema
-(["sōs’a"]]
+	["sōs’a"]]
     }
     {:label "beja_A-VPref3CCCausAffPerf-am"
     :note "Almkvist1881 #273"
@@ -6850,7 +6850,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄sō’í̄ma"]]
+	["bá̄sō’í̄ma"]]
     }
     {:label "beja_A-VPref3CCCausNegImp-ram"
     :note "Almkvist1881 #273"
@@ -6867,7 +6867,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄sorí̄ma"]]
+	["bá̄sorí̄ma"]]
     }
     {:label "beja_A-VPref3CCCausNegImp-sa"
     :note "Almkvist1881 #273"
@@ -6884,7 +6884,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄sōsí̄’a"]]
+	["bá̄sōsí̄’a"]]
     }
     {:label "beja_A-VPref3CCCausNegPres-am"
     :note "Almkvist1881 #273"
@@ -6901,7 +6901,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kāsō’am"]]
+	["kāsō’am"]]
     }
     {:label "beja_A-VPref3CCCausNegPres-ram"
     :note "Almkvist1881 #273"
@@ -6918,7 +6918,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kāsōrim"]]
+	["kāsōrim"]]
     }
     {:label "beja_A-VPref3CCCausNegPres-sa"
     :note "Almkvist1881 #273"
@@ -6935,7 +6935,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kāsōsa’"]]
+	["kāsōsa’"]]
     }
     {:label "beja_A-VPref3CCPassAffAor-naw"
     :note "Almkvist1881 #273"
@@ -7050,7 +7050,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["etú̄niw ká̄di"]]
+	["etú̄niw ká̄di"]]
     }
     {:label "beja_A-VPref3CCPassNegFut1-ram"
     :note "Almkvist1881 #273"
@@ -7067,7 +7067,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["atú̄rium ká̄di"]]
+	["atú̄rium ká̄di"]]
     }
     {:label "beja_A-VPref3CCPassNegFut2-naw"
     :note "Almkvist1881 #273"
@@ -7084,7 +7084,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["atōnwoid ká̄heru"]]
+	["atōnwoid ká̄heru"]]
     }
     {:label "beja_A-VPref3CCPassNegFut2-ram"
     :note "Almkvist1881 #273"
@@ -7101,7 +7101,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["tōrāmoid ká̄heru"]]
+	["tōrāmoid ká̄heru"]]
     }
     {:label "beja_A-VPref3CCPassNegImp-naw"
     :note "Almkvist1881 #273"
@@ -7118,7 +7118,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄tōní̄wa"]]
+	["bá̄tōní̄wa"]]
     }
     {:label "beja_A-VPref3CCPassNegImp-ram"
     :note "Almkvist1881 #273"
@@ -7134,7 +7134,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄tōrí̄ma"]]
+	["bá̄tōrí̄ma"]]
     }
     {:label "beja_A-VPref3CCPassNegPerf-naw"
     :note "Almkvist1881 #273"
@@ -7151,7 +7151,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["tōnāwāb ká̄ka"]]
+	["tōnāwāb ká̄ka"]]
     }
     {:label "beja_A-VPref3CCPassNegPerf-ram"
     :note "Almkvist1881 #273"
@@ -7168,7 +7168,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["tōrāmāb ká̄ka"]]
+	["tōrāmāb ká̄ka"]]
     }
     {:label "beja_A-VPref3CCPassNegPres-naw"
     :note "Almkvist1881 #273"
@@ -7185,7 +7185,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kātōnāu"]]
+	["kātōnāu"]]
     }
     {:label "beja_A-VPref3CCPassNegPres-ram"
     :note "Almkvist1881 #273"
@@ -7202,7 +7202,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kātōrām"]]
+	["kātōrām"]]
     }
     {:label "beja_A-VPref4CCCBaseAffAor-engad"
     :note "Almkvist1881 #291"
@@ -7299,7 +7299,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["éngida ándi"]]
+	["éngida ándi"]]
     }
     {:label "beja_A-VPref4CCCBaseAffFut1-sebob"
     :note "Almkvist1881 #291"
@@ -7316,7 +7316,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["í̄šbūb ándi"]]
+	["í̄šbūb ándi"]]
     }
     {:label "beja_A-VPref4CCCBaseAffFut2-engad"
     :note "Almkvist1881 #291"
@@ -7333,7 +7333,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["méngēd hérriu"]]
+	["méngēd hérriu"]]
     }
     {:label "beja_A-VPref4CCCBaseAffFut2-sebob"
     :note "Almkvist1881 #291"
@@ -7350,7 +7350,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["šebōboid hérriu"]]
+	["šebōboid hérriu"]]
     }
     {:label "beja_A-VPref4CCCBaseAffImp-engad"
     :note "Almkvist1881 #291"
@@ -7495,7 +7495,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄šbōbé̄k"]]
+	["bá̄šbōbé̄k"]]
     }
     {:label "beja_A-VPref4CCCBaseNegImp-engad"
     :note "Almkvist1881 #291"
@@ -7528,7 +7528,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄š(e)bōba"]]
+	["bá̄š(e)bōba"]]
     }
     {:label "beja_A-VPref4CCCBaseNegOpt-engad"
     :note "Almkvist1881 #291"
@@ -7562,7 +7562,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄š(e)bōbu"]]
+	["bá̄š(e)bōbu"]]
     }
     {:label "beja_A-VPref4CCCBaseNegPerf-engad"
     :note "Almkvist1881 #291"
@@ -7579,7 +7579,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["engádāb ká̄ka"] ["engdāb kítka"]]
+	["engádāb ká̄ka"] ["engdāb kítka"]]
     }
     {:label "beja_A-VPref4CCCBaseNegPerf-sebob"
     :note "Almkvist1881 #291"
@@ -7596,7 +7596,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["šebōbāb ká̄ka"]]
+	["šebōbāb ká̄ka"]]
     }
     {:label "beja_A-VPref4CCCBaseNegPres-engad"
     :note "Almkvist1881 #291"
@@ -7630,7 +7630,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ká̄šbōb"]]
+	["ká̄šbōb"]]
     }
     {:label "beja_A-VPref4CCCCausAffAor-engad"
     :note "Almkvist1881 #291"
@@ -7663,7 +7663,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ší̄šbōbat"]]
+	["ší̄šbōbat"]]
     }
     {:label "beja_A-VPref4CCCCausAffFut1-sebob"
     :note "Almkvist1881 #291"
@@ -7680,7 +7680,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["eší̄šbūb ándi"]]
+	["eší̄šbūb ándi"]]
     }
     {:label "beja_A-VPref4CCCCausAffFut2-engad"
     :note "Almkvist1881 #291"
@@ -7697,7 +7697,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["séngadoid hérriu"]]
+	["séngadoid hérriu"]]
     }
     {:label "beja_A-VPref4CCCCausAffImp-engad"
     :note "Almkvist1881 #291"
@@ -7731,7 +7731,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ší̄šbō̄ba"]]
+	["ší̄šbō̄ba"]]
     }
     {:label "beja_A-VPref4CCCCausAffPerf-engad"
     :note "Almkvist1881 #291"
@@ -7764,7 +7764,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ášīšbōb"]]
+	["ášīšbōb"]]
     }
     {:label "beja_A-VPref4CCCCausAffPres-engad"
     :note "Almkvist1881 #291"
@@ -7797,7 +7797,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ášīšbōbi"]]
+	["ášīšbōbi"]]
     }
     {:label "beja_A-VPref4CCCCausNegImp-engad"
     :note "Almkvist1881 #291"
@@ -7814,7 +7814,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāsengá̄da"]]
+	["bāsengá̄da"]]
     }
     {:label "beja_A-VPref4CCCCausNegOpt-engad"
     :note "Almkvist1881 #291"
@@ -7831,7 +7831,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāsengá̄du"]]
+	["bāsengá̄du"]]
     }
     {:label "beja_A-VPref4CCCCausNegPerf-engad"
     :note "Almkvist1881 #291"
@@ -7848,7 +7848,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["séngadāb ká̄ka"]]
+	["séngadāb ká̄ka"]]
     }
     {:label "beja_A-VPref4CCCCausNegPres-engad"
     :note "Almkvist1881 #291"
@@ -7865,7 +7865,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ká̄sengad"]]
+	["ká̄sengad"]]
     }
     {:label "beja_A-VPref4CCYBaseAffAor-for"
     :note "Almkvist1881 #287"
@@ -7922,7 +7922,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["í̄fra ándi"]]
+	["í̄fra ándi"]]
     }
     {:label "beja_A-VPref4CCYBaseAffFut2-for"
     :note "Almkvist1881 #287"
@@ -7939,7 +7939,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["firá̄t hérriu"]]
+	["firá̄t hérriu"]]
     }
     {:label "beja_A-VPref4CCYBaseAffImprtv-for"
     :note "Almkvist1881 #287"
@@ -8121,7 +8121,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sefōroid hérriu"]]
+	["sefōroid hérriu"]]
     }
     {:label "beja_A-VPref4CCYCausAffImp-for"
     :note "Almkvist1881 #287"
@@ -8220,7 +8220,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāséfō̄rí̄bu"]]
+	["bāséfō̄rí̄bu"]]
     }
     {:label "beja_A-VPref4CCYCausNegPerf-for"
     :note "Almkvist1881 #287"
@@ -8237,7 +8237,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sefōrāb ká̄ka"]]
+	["sefōrāb ká̄ka"]]
     }
     {:label "beja_A-VPref4CCYCausNegPres-for"
     :note "Almkvist1881 #287"
@@ -8350,7 +8350,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["í̄bdān ándi"]]
+	["í̄bdān ándi"]]
     }
     {:label "beja_A-VPref5CCCBaseAffFut1-masu"
     :note "Almkvist1881 #296"
@@ -8364,7 +8364,7 @@
             :derivedStem :Base,
             :tam :FutureComp1}
     :terms [[:token] ;; schema
-(["í̄msu ándi"]]
+	["í̄msu ándi"]]
     }
     {:label "beja_A-VPref5CCCBaseAffFut2-baden"
     :note "Almkvist1881 #296"
@@ -8381,7 +8381,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bídnēb hérriu"]]
+	["bídnēb hérriu"]]
     }
     {:label "beja_A-VPref5CCCBaseAffFut2-masu"
     :note "Almkvist1881 #296"
@@ -8396,7 +8396,7 @@
             :derivedStem :Base,
             :tam :FutureComp2}
     :terms [[:token] ;; schema
-(["méswi hérriu"]]
+	["méswi hérriu"]]
     }
     {:label "beja_A-VPref5CCCBaseAffImp-baden"
     :note "Almkvist1881 #296"
@@ -8561,7 +8561,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bābá̄dena"]]
+	["bābá̄dena"]]
     }
     {:label "beja_A-VPref5CCCBaseNegImp-masu"
     :note "Almkvist1881 #296"
@@ -8596,7 +8596,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bābá̄denu"]]
+	["bābá̄denu"]]
     }
     {:label "beja_A-VPref5CCCBaseNegOpt-masu"
     :note "Almkvist1881 #296"
@@ -8633,7 +8633,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄dnāb ká̄ka"]]
+	["bá̄dnāb ká̄ka"]]
     }
     {:label "beja_A-VPref5CCCBaseNegPerf-masu"
     :note "Almkvist1881 #296"
@@ -8666,7 +8666,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kābá̄den"]]
+	["kābá̄den"]]
     }
     {:label "beja_A-VPref5CCCBaseNegPres-masu"
     :note "Almkvist1881 #296"
@@ -8699,7 +8699,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄esbí̄din"] ["sebá̄dnat"]]
+	["bá̄esbí̄din"] ["sebá̄dnat"]]
     }
     {:label "beja_A-VPref5CCCCausAffAor-masu"
     :note "Almkvist1881 #296"
@@ -8732,7 +8732,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["esmí̄su ándi"]]
+	["esmí̄su ándi"]]
     }
     {:label "beja_A-VPref5CCCCausAffFut2-masu"
     :note "Almkvist1881 #296"
@@ -8749,7 +8749,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["semá̄swoid hérriu"]]
+	["semá̄swoid hérriu"]]
     }
     {:label "beja_A-VPref5CCCCausAffImp-baden"
     :note "Almkvist1881 #296"
@@ -8797,7 +8797,7 @@
             :derivedStem :S,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["sebá̄dnoi"]]
+	["sebá̄dnoi"]]
     }
     {:label "beja_A-VPref5CCCCausAffPart-masu"
     :note "Almkvist1881 #296"
@@ -8812,7 +8812,7 @@
             :pos :Verb,
             :derivedStem :S}
     :terms [[:token] ;; schema
-(["semá̄swa"]]
+	["semá̄swa"]]
     }
     {:label "beja_A-VPref5CCCCausAffPerf-baden"
     :note "Almkvist1881 #296"
@@ -8909,7 +8909,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["emé̄bdīn ándi"]]
+	["emé̄bdīn ándi"]]
     }
     {:label "beja_A-VPref5CCCPassAffFut2-baden"
     :note "Almkvist1881 #296"
@@ -8926,7 +8926,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["amé̄bidnoid hérriu"]]
+	["amé̄bidnoid hérriu"]]
     }
     {:label "beja_A-VPref5CCCPassAffPerf-baden"
     :note "Almkvist1881 #296"
@@ -8975,7 +8975,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄mēbdá̄na"]]
+	["bá̄mēbdá̄na"]]
     }
     {:label "beja_A-VPref5CCCPassNegOpt-baden"
     :note "Almkvist1881 #296"
@@ -8992,7 +8992,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄mēbdá̄nu"]]
+	["bá̄mēbdá̄nu"]]
     }
     {:label "beja_A-VPref5CCCPassNegPerf-baden"
     :note "Almkvist1881 #296"
@@ -9009,7 +9009,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["amēdá̄nāb ká̄ka"]]
+	["amēdá̄nāb ká̄ka"]]
     }
     {:label "beja_A-VPref5CCCPassNegPres-baden"
     :note "Almkvist1881 #296"
@@ -9026,7 +9026,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kāmé̄bdān"]]
+	["kāmé̄bdān"]]
     }
     {:label "beja_A-VPrefIrregCC-OTHER"
     :note "Almkvist1881 #304-26 (pp. 221-240). THERE ARE MISSING IRREGULAR VERBS:di say,di
@@ -9159,7 +9159,7 @@
             :tam :FutureComp2,
             :number :Plural}
     :terms [[:token] ;; schema
-(["há’atīb hérriu"]]
+	["há’atīb hérriu"]]
     }
     {:label "beja_A-VPrefIrregCCBaseAffFut2-ii"
     :note "Almkvist1881 #302"
@@ -9303,7 +9303,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄ha’ēk"]]
+	["bá̄ha’ēk"]]
     }
     {:label "beja_A-VPrefIrregCCBaseNegCond-ii"
     :note "Almkvist1881 #302"
@@ -9414,7 +9414,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["há’āb ká̄ka"]]
+	["há’āb ká̄ka"]]
     }
     {:label "beja_A-VPrefIrregCCBaseNegPerf-ii"
     :note "Almkvist1881 #302"
@@ -9431,7 +9431,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["í̄jāb ká̄ka"]]
+	["í̄jāb ká̄ka"]]
     }
     {:label "beja_A-VPrefIrregCCBaseNegPres-ha"
     :note "Almkvist1881 #301"
@@ -9448,7 +9448,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kahá’an"]]
+	["kahá’an"]]
     }
     {:label "beja_A-VPrefIrregCCBaseNegPres-ii"
     :note "Almkvist1881 #302"
@@ -9501,7 +9501,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ha’ástīb hérriu"]]
+	["ha’ástīb hérriu"]]
     }
     {:label "beja_A-VPrefIrregCCCausAffPerf-ha"
     :note "Almkvist1881 #301"
@@ -9691,7 +9691,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dágwa"]]
+	["dágwa"]]
     }
     {:label "beja_A-VPrefOtherCCCBaseAffInfin-dagw"
     :note "Almkvist1881 #298"
@@ -9708,7 +9708,7 @@
             :tam :Infinitive,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dagw"]]
+	["dagw"]]
     }
     {:label "beja_A-VPrefOtherCCCBaseAffPerf-dagw"
     :note "Almkvist1881 #298"
@@ -9758,7 +9758,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["demú̄m hérriu"]]
+	["demú̄m hérriu"]]
     }
     {:label "beja_A-VPrefOtherCCCInfin-haid"
     :note "Almkvist1881 #298"
@@ -9769,7 +9769,7 @@
             :rootClass :CCC,
             :tam :Infinitive}
     :terms [[:token] ;; schema
-(["tohájde"]]
+	["tohájde"]]
     }
     {:label "beja_A-VPrefOtherCCCPerf-beday"
     :note "Almkvist1881 #299"
@@ -10003,7 +10003,7 @@
             :derivedStem :Base,
             :number :Singular}
     :terms [[:token] ;; schema
-(["táma"]]
+	["táma"]]
     }
     {:label "beja_A-VSuffCBaseAffPerf-tam"
     :note "Almkvist1881 #237"
@@ -10308,7 +10308,7 @@
             :derivedStem :S,
             :number :Singular}
     :terms [[:token] ;; schema
-(["támsa"]]
+	["támsa"]]
     }
     {:label "beja_A-VSuffCCausAffPerf-tam"
     :note "Almkvist1881 #237"
@@ -10465,7 +10465,7 @@
             :derivedStem :S,
             :number :Singular}
     :terms [[:token] ;; schema
-(["_NULL"]]
+	["_NULL"]]
     }
     {:label "beja_A-VSuffCCausNegPerf-tam"
     :note "Almkvist1881 #237"
@@ -10595,7 +10595,7 @@
             :derivedStem :M,
             :number :Singular}
     :terms [[:token] ;; schema
-(["támama"]]
+	["támama"]]
     }
     {:label "beja_A-VSuffCPassAffPerf-tam"
     :note "Almkvist1881 #237"
@@ -10818,7 +10818,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["aré̄e ándi"]]
+	["aré̄e ándi"]]
     }
     {:label "beja_A-VSuffV2AffFut2-are"
     :note "Almkvist1881 #242.6. Forms are finite,but PNG not labeled – to be
@@ -10834,7 +10834,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["aré̄tīb hérrīu"]]
+	["aré̄tīb hérrīu"]]
     }
     {:label "beja_A-VSuffV2AffPerf-are"
     :note "Almkvist1881 #242.6. Forms are finite,but PNG not labeled – to be
@@ -10902,7 +10902,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["afú̄jat"]]
+	["afú̄jat"]]
     }
     {:label "beja_A-VSuffV2BaseAffAor-ega"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -10950,7 +10950,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["tiffōjat"]]
+	["tiffōjat"]]
     }
     {:label "beja_A-VSuffV2BaseAffAor-wa"
     :note "Almkvist1881 #242.8. Forms are finite,but PNG not labeled – to be
@@ -10985,7 +10985,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ú̄e ándi"]]
+	["ú̄e ándi"]]
     }
     {:label "beja_A-VSuffV2BaseAffFut2-wa"
     :note "Almkvist1881 #242.8. Forms are finite,but PNG not labeled – to be
@@ -11002,7 +11002,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ú̄atīb hérriu"]]
+	["ú̄atīb hérriu"]]
     }
     {:label "beja_A-VSuffV2BaseAffPerf-afu"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11018,7 +11018,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["afú̄jan"]]
+	["afú̄jan"]]
     }
     {:label "beja_A-VSuffV2BaseAffPerf-ega"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11066,7 +11066,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["tiffōjan"]]
+	["tiffōjan"]]
     }
     {:label "beja_A-VSuffV2BaseAffPerf-wa"
     :note "Almkvist1881 #242.8. Forms are finite,but PNG not labeled – to be
@@ -11100,7 +11100,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["afú̄jani"]]
+	["afú̄jani"]]
     }
     {:label "beja_A-VSuffV2BaseAffPres-ega"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11147,7 +11147,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["tiffōjani"]]
+	["tiffōjani"]]
     }
     {:label "beja_A-VSuffV2BaseAffPres-wa"
     :note "Almkvist1881 #242.8. Forms are finite,but PNG not labeled – to be
@@ -11182,7 +11182,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāú̄ajēk"]]
+	["bāú̄ajēk"]]
     }
     {:label "beja_A-VSuffV2BaseNegImprtv-wa"
     :note "Almkvist1881 #242.8. Forms are finite,but PNG not labeled – to be
@@ -11199,7 +11199,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄ūa"]]
+	["bá̄ūa"]]
     }
     {:label "beja_A-VSuffV2BaseNegPerf-wa"
     :note "Almkvist1881 #242.8. Forms are finite,but PNG not labeled – to be
@@ -11216,7 +11216,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ú̄āb ká̄ka"]]
+	["ú̄āb ká̄ka"]]
     }
     {:label "beja_A-VSuffV2CausAffAor-ega"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11232,7 +11232,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["egá̄sat"]]
+	["egá̄sat"]]
     }
     {:label "beja_A-VSuffV2CausAffAor-mitya"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11248,7 +11248,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mitjá̄sat"]]
+	["mitjá̄sat"]]
     }
     {:label "beja_A-VSuffV2CausAffPerf-ega"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11264,7 +11264,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["egá̄san"]]
+	["egá̄san"]]
     }
     {:label "beja_A-VSuffV2CausAffPerf-mitya"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11280,7 +11280,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mitjá̄san"]]
+	["mitjá̄san"]]
     }
     {:label "beja_A-VSuffV2CausAffPres-ega"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11296,7 +11296,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["egá̄sani"]]
+	["egá̄sani"]]
     }
     {:label "beja_A-VSuffV2CausAffPres-mitya"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11312,7 +11312,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mitjá̄sani"]]
+	["mitjá̄sani"]]
     }
     {:label "beja_A-VSuffV2CausAffStemQ-afu"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11326,7 +11326,7 @@
             :derivedStem :S,
             :tam :StemQ}
     :terms [[:token] ;; schema
-(["afūs"]]
+	["afūs"]]
     }
     {:label "beja_A-VSuffV2CausAffStemQ-tiffo"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11339,7 +11339,7 @@
             :rootClass :V2,
             :tam :StemQ}
     :terms [[:token] ;; schema
-(["tiffōs"]]
+	["tiffōs"]]
     }
     {:label "beja_A-VSuffV2CausCausAffAor-wa"
     :note "Almkvist1881 #242.8. Forms are finite,but PNG not labeled – to be
@@ -11375,7 +11375,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ūasí̄stīb hérriu"]]
+	["ūasí̄stīb hérriu"]]
     }
     {:label "beja_A-VSuffV2CausCausAffPerf-wa"
     :note "Almkvist1881 #242.8. Forms are finite,but PNG not labeled – to be
@@ -11459,7 +11459,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kaú̄así̄san"]]
+	["kaú̄así̄san"]]
     }
     {:label "beja_A-VSuffV2PassAffAor-mitya"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11475,7 +11475,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mitjá̄mat"]]
+	["mitjá̄mat"]]
     }
     {:label "beja_A-VSuffV2PassAffPerf-mitya"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11491,7 +11491,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mitjá̄man"]]
+	["mitjá̄man"]]
     }
     {:label "beja_A-VSuffV2PassAffPres-mitya"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11507,7 +11507,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["mitjá̄mani"]]
+	["mitjá̄mani"]]
     }
     {:label "beja_A-VSuffV2PassAffStemQ-afu"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11520,7 +11520,7 @@
             :rootClass :V2,
             :tam :StemQ}
     :terms [[:token] ;; schema
-(["afūm"]]
+	["afūm"]]
     }
     {:label "beja_A-VSuffV2PassAffStemQ-tiffo"
     :note "Almkvist1881 #242. Forms are finite,but PNG not labeled – to be added."
@@ -11534,7 +11534,7 @@
             :derivedStem :M,
             :tam :StemQ}
     :terms [[:token] ;; schema
-(["tiffōm"]]
+	["tiffōm"]]
     }
     {:label "beja_A-VSuffVBaseAffAor-daa"
     :note "Almkvist1881 #241"
@@ -11815,7 +11815,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["úmbe ándi"]]
+	["úmbe ándi"]]
     }
     {:label "beja_A-VSuffVBaseAffFut2-daa"
     :note "Almkvist1881 #241"
@@ -11888,7 +11888,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["úmbatí̄b hérriu"]]
+	["úmbatí̄b hérriu"]]
     }
     {:label "beja_A-VSuffVBaseAffImprtv-daa"
     :note "Almkvist1881 #241"
@@ -12343,7 +12343,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāúmbajēk"]]
+	["bāúmbajēk"]]
     }
     {:label "beja_A-VSuffVBaseNegCond-wali"
     :note "Almkvist1881 #242.7"
@@ -12558,7 +12558,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄umba"]]
+	["bá̄umba"]]
     }
     {:label "beja_A-VSuffVBaseNegImprtv-wali"
     :note "Almkvist1881 #242.7"
@@ -12759,7 +12759,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["úmbāb ká̄ka"]]
+	["úmbāb ká̄ka"]]
     }
     {:label "beja_A-VSuffVBaseNegPluperf-daa"
     :note "Almkvist1881 #241"
@@ -12930,7 +12930,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄sat"]]
+	["dá̄sat"]]
     }
     {:label "beja_A-VSuffVCausAffAor-du"
     :note "Almkvist1881 #241"
@@ -12946,7 +12946,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dú̄sat"]]
+	["dú̄sat"]]
     }
     {:label "beja_A-VSuffVCausAffAor-gwa"
     :note "Almkvist1881 #241"
@@ -12962,7 +12962,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwásat"]]
+	["gwásat"]]
     }
     {:label "beja_A-VSuffVCausAffAor-so"
     :note "Almkvist1881 #241"
@@ -12978,7 +12978,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōsat"]]
+	["sōsat"]]
     }
     {:label "beja_A-VSuffVCausAffCond-daa"
     :note "Almkvist1881 #241"
@@ -12994,7 +12994,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄sanjēk"]]
+	["dá̄sanjēk"]]
     }
     {:label "beja_A-VSuffVCausAffCond-du"
     :note "Almkvist1881 #241"
@@ -13010,7 +13010,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dú̄sanjēk"]]
+	["dú̄sanjēk"]]
     }
     {:label "beja_A-VSuffVCausAffCond-gwa"
     :note "Almkvist1881 #241"
@@ -13026,7 +13026,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwásanjēk"]]
+	["gwásanjēk"]]
     }
     {:label "beja_A-VSuffVCausAffCond-so"
     :note "Almkvist1881 #241"
@@ -13042,7 +13042,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōsanjēk"]]
+	["sōsanjēk"]]
     }
     {:label "beja_A-VSuffVCausAffFut1-daa"
     :note "Almkvist1881 #241"
@@ -13058,7 +13058,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄si ándi"]]
+	["dá̄si ándi"]]
     }
     {:label "beja_A-VSuffVCausAffFut2-daa"
     :note "Almkvist1881 #241"
@@ -13074,7 +13074,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄stīd hérriu"]]
+	["dá̄stīd hérriu"]]
     }
     {:label "beja_A-VSuffVCausAffImprtv-daa"
     :note "Almkvist1881 #241"
@@ -13090,7 +13090,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄sa"]]
+	["dá̄sa"]]
     }
     {:label "beja_A-VSuffVCausAffImprtv-du"
     :note "Almkvist1881 #241"
@@ -13106,7 +13106,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dú̄sa"]]
+	["dú̄sa"]]
     }
     {:label "beja_A-VSuffVCausAffImprtv-gwa"
     :note "Almkvist1881 #241"
@@ -13122,7 +13122,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwása"]]
+	["gwása"]]
     }
     {:label "beja_A-VSuffVCausAffImprtv-so"
     :note "Almkvist1881 #241"
@@ -13138,7 +13138,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōda"]]
+	["sōda"]]
     }
     {:label "beja_A-VSuffVCausAffPerf-daa"
     :note "Almkvist1881 #241"
@@ -13154,7 +13154,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄san"]]
+	["dá̄san"]]
     }
     {:label "beja_A-VSuffVCausAffPerf-du"
     :note "Almkvist1881 #241"
@@ -13170,7 +13170,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dú̄san"]]
+	["dú̄san"]]
     }
     {:label "beja_A-VSuffVCausAffPerf-gwa"
     :note "Almkvist1881 #241"
@@ -13186,7 +13186,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwásan"]]
+	["gwásan"]]
     }
     {:label "beja_A-VSuffVCausAffPerf-so"
     :note "Almkvist1881 #241"
@@ -13202,7 +13202,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōsan"]]
+	["sōsan"]]
     }
     {:label "beja_A-VSuffVCausAffPres-daa"
     :note "Almkvist1881 #241"
@@ -13218,7 +13218,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄sani"]]
+	["dá̄sani"]]
     }
     {:label "beja_A-VSuffVCausAffPres-du"
     :note "Almkvist1881 #241"
@@ -13234,7 +13234,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dú̄sani"]]
+	["dú̄sani"]]
     }
     {:label "beja_A-VSuffVCausAffPres-gwa"
     :note "Almkvist1881 #241"
@@ -13250,7 +13250,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwásani"]]
+	["gwásani"]]
     }
     {:label "beja_A-VSuffVCausAffPres-so"
     :note "Almkvist1881 #241"
@@ -13266,7 +13266,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōsani"]]
+	["sōsani"]]
     }
     {:label "beja_A-VSuffVCausNegImprtv-daa"
     :note "Almkvist1881 #241"
@@ -13281,7 +13281,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bādāsa"]]
+	["bādāsa"]]
     }
     {:label "beja_A-VSuffVCausNegImprtv-du"
     :note "Almkvist1881 #241"
@@ -13297,7 +13297,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bādūsa"]]
+	["bādūsa"]]
     }
     {:label "beja_A-VSuffVCausNegImprtv-gwa"
     :note "Almkvist1881 #241"
@@ -13313,7 +13313,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāgwasa"]]
+	["bāgwasa"]]
     }
     {:label "beja_A-VSuffVCausNegImprtv-so"
     :note "Almkvist1881 #241"
@@ -13329,7 +13329,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄sōsa"]]
+	["bá̄sōsa"]]
     }
     {:label "beja_A-VSuffVPassAffAor-daa"
     :note "Almkvist1881 #241"
@@ -13345,7 +13345,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄mat"]]
+	["dá̄mat"]]
     }
     {:label "beja_A-VSuffVPassAffAor-gwa"
     :note "Almkvist1881 #241"
@@ -13361,7 +13361,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwámat"]]
+	["gwámat"]]
     }
     {:label "beja_A-VSuffVPassAffAor-so"
     :note "Almkvist1881 #241"
@@ -13377,7 +13377,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōmat"]]
+	["sōmat"]]
     }
     {:label "beja_A-VSuffVPassAffCond-daa"
     :note "Almkvist1881 #241"
@@ -13393,7 +13393,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄manjēk"]]
+	["dá̄manjēk"]]
     }
     {:label "beja_A-VSuffVPassAffCond-gwa"
     :note "Almkvist1881 #241"
@@ -13409,7 +13409,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwámanjēk"]]
+	["gwámanjēk"]]
     }
     {:label "beja_A-VSuffVPassAffCond-so"
     :note "Almkvist1881 #241"
@@ -13425,7 +13425,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōmanjēk"]]
+	["sōmanjēk"]]
     }
     {:label "beja_A-VSuffVPassAffFut1-daa"
     :note "Almkvist1881 #241"
@@ -13441,7 +13441,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄mi ándi"]]
+	["dá̄mi ándi"]]
     }
     {:label "beja_A-VSuffVPassAffFut1-gwa"
     :note "Almkvist1881 #241"
@@ -13457,7 +13457,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwámi ándi"]]
+	["gwámi ándi"]]
     }
     {:label "beja_A-VSuffVPassAffFut1-so"
     :note "Almkvist1881 #241"
@@ -13473,7 +13473,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōmi ándi"]]
+	["sōmi ándi"]]
     }
     {:label "beja_A-VSuffVPassAffFut2-daa"
     :note "Almkvist1881 #241"
@@ -13489,7 +13489,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄mtīb hérriu"]]
+	["dá̄mtīb hérriu"]]
     }
     {:label "beja_A-VSuffVPassAffFut2-gwa"
     :note "Almkvist1881 #241"
@@ -13505,7 +13505,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwámtīb hérriu"]]
+	["gwámtīb hérriu"]]
     }
     {:label "beja_A-VSuffVPassAffFut2-so"
     :note "Almkvist1881 #241"
@@ -13521,7 +13521,7 @@
             :tam :FutureComp2,
             :number :Singular}
     :terms [[:token] ;; schema
-(["somtīb̄ hérriu"]]
+	["somtīb̄ hérriu"]]
     }
     {:label "beja_A-VSuffVPassAffPerf-daa"
     :note "Almkvist1881 #241"
@@ -13537,7 +13537,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄man"]]
+	["dá̄man"]]
     }
     {:label "beja_A-VSuffVPassAffPerf-gwa"
     :note "Almkvist1881 #241"
@@ -13553,7 +13553,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwáman"]]
+	["gwáman"]]
     }
     {:label "beja_A-VSuffVPassAffPerf-so"
     :note "Almkvist1881 #241"
@@ -13569,7 +13569,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōman"]]
+	["sōman"]]
     }
     {:label "beja_A-VSuffVPassAffPres-daa"
     :note "Almkvist1881 #241"
@@ -13585,7 +13585,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄mani"]]
+	["dá̄mani"]]
     }
     {:label "beja_A-VSuffVPassAffPres-gwa"
     :note "Almkvist1881 #241"
@@ -13601,7 +13601,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwámani"]]
+	["gwámani"]]
     }
     {:label "beja_A-VSuffVPassAffPres-so"
     :note "Almkvist1881 #241"
@@ -13617,7 +13617,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōmani"]]
+	["sōmani"]]
     }
     {:label "beja_A-VSuffVPassNegCond-daa"
     :note "Almkvist1881 #241"
@@ -13633,7 +13633,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bādá̄majēk"]]
+	["bādá̄majēk"]]
     }
     {:label "beja_A-VSuffVPassNegCond-gwa"
     :note "Almkvist1881 #241"
@@ -13649,7 +13649,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāgwámajēk"]]
+	["bāgwámajēk"]]
     }
     {:label "beja_A-VSuffVPassNegCond-so"
     :note "Almkvist1881 #241"
@@ -13665,7 +13665,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāsomajēk"]]
+	["bāsomajēk"]]
     }
     {:label "beja_A-VSuffVPassNegFut1-daa"
     :note "Almkvist1881 #241"
@@ -13681,7 +13681,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dá̄mi ká̄di"]]
+	["dá̄mi ká̄di"]]
     }
     {:label "beja_A-VSuffVPassNegFut1-gwa"
     :note "Almkvist1881 #241"
@@ -13697,7 +13697,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwámi ká̄di"]]
+	["gwámi ká̄di"]]
     }
     {:label "beja_A-VSuffVPassNegFut1-so"
     :note "Almkvist1881 #241"
@@ -13713,7 +13713,7 @@
             :tam :FutureComp1,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōmi ká̄di"]]
+	["sōmi ká̄di"]]
     }
     {:label "beja_A-VSuffVPassNegImprtv-daa"
     :note "Almkvist1881 #241"
@@ -13729,7 +13729,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄dāma"]]
+	["bá̄dāma"]]
     }
     {:label "beja_A-VSuffVPassNegImprtv-gwa"
     :note "Almkvist1881 #241"
@@ -13745,7 +13745,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄gwama"]]
+	["bá̄gwama"]]
     }
     {:label "beja_A-VSuffVPassNegImprtv-so"
     :note "Almkvist1881 #241"
@@ -13761,7 +13761,7 @@
             :tam :Imperative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāsōma"]]
+	["bāsōma"]]
     }
     {:label "beja_A-VSuffVPassNegOpt-daa"
     :note "Almkvist1881 #241"
@@ -13777,7 +13777,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄dāmáju"]]
+	["bá̄dāmáju"]]
     }
     {:label "beja_A-VSuffVPassNegOpt-gwa"
     :note "Almkvist1881 #241"
@@ -13793,7 +13793,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄gwamáju"]]
+	["bá̄gwamáju"]]
     }
     {:label "beja_A-VSuffVPassNegOpt-so"
     :note "Almkvist1881 #241"
@@ -13809,7 +13809,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bá̄sōmáju"]]
+	["bá̄sōmáju"]]
     }
     {:label "beja_A-VSuffVPassNegPerf-daa"
     :note "Almkvist1881 #241"
@@ -13825,7 +13825,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["dámāb ká̄ka"]]
+	["dámāb ká̄ka"]]
     }
     {:label "beja_A-VSuffVPassNegPerf-gwa"
     :note "Almkvist1881 #241"
@@ -13841,7 +13841,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["gwámāb ká̄ka"]]
+	["gwámāb ká̄ka"]]
     }
     {:label "beja_A-VSuffVPassNegPerf-so"
     :note "Almkvist1881 #241"
@@ -13857,7 +13857,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["sōmāb ká̄ka"]]
+	["sōmāb ká̄ka"]]
     }
     {:label "beja_A-VSuffVPassNegPres-daa"
     :note "Almkvist1881 #241"
@@ -13873,7 +13873,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kádāman"]]
+	["kádāman"]]
     }
     {:label "beja_A-VSuffVPassNegPres-gwa"
     :note "Almkvist1881 #241"
@@ -13889,7 +13889,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kágwaman"]]
+	["kágwaman"]]
     }
     {:label "beja_A-VSuffVPassNegPres-so"
     :note "Almkvist1881 #241"
@@ -13905,7 +13905,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["kásōman"]]
+	["kásōman"]]
     }
     {:label "beja_A-VSuffVdpthBaseAffAor-kwai"
     :note "Almkvist1881 #243"
@@ -13958,7 +13958,7 @@
             :tam :Past,
             :number :Plural}
     :terms [[:token] ;; schema
-(["ré̄wiān"]]
+	["ré̄wiān"]]
     }
     {:label "beja_A-VSuffVdpthBaseAffPerf-kwai"
     :note "Almkvist1881 #243"
@@ -14049,7 +14049,7 @@
             :tam :Conditional,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bāré̄wajēk"]]
+	["bāré̄wajēk"]]
     }
     {:label "beja_A-VSuffVdpthBaseNegOpt-rew"
     :note "Almkvist1881 #243"
@@ -14065,7 +14065,7 @@
             :tam :Optative,
             :number :Singular}
     :terms [[:token] ;; schema
-(["bārēwáju"]]
+	["bārēwáju"]]
     }
     {:label "beja_A-VSuffVdpthCausAffAor-rew"
     :note "Almkvist1881 #243"
@@ -14130,7 +14130,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["réusaman"]]
+            ["réusaman"]]
     }
     {:label "beja_A-VSuffVdpthPassAffAor-rew"
     :note "Almkvist1881 #243"
@@ -14146,7 +14146,7 @@
             :tam :Future,
             :number :Singular}
     :terms [[:token] ;; schema
-(["ré̄wamat"]]
+            ["ré̄wamat"]]
     }
     {:label "beja_A-VSuffVdpthPassAffPerf-rew"
     :note "Almkvist1881 #243"
@@ -14162,7 +14162,7 @@
             :tam :Past,
             :number :Singular}
     :terms [[:token] ;; schema
-(["rēwaman"]]
+            ["rēwaman"]]
     }
     {:label "beja_A-VSuffVdpthPassAffPres-rew"
     :note "Almkvist1881 #243"
@@ -14178,7 +14178,7 @@
             :tam :Present,
             :number :Singular}
     :terms [[:token] ;; schema
-(["rēwámani"]]
+            ["rēwámani"]]
     }
 ]
 :muterms [
@@ -15168,5 +15168,4 @@
             [:Possessive :Singular "- h"]
             [:Possessive :Plural "- hna"]]
     }
-]
-}
+]}
