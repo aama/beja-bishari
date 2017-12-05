@@ -1,3 +1,4 @@
+
 {
  :lang :beja-bishari
  :subfamily "Beja"
@@ -6,8 +7,7 @@
  :datasourceNotes "In order to avoid confusion and for ease of comparison,  what Almkvist calls 'Aorist' and 'Perfekt' are here termed 'Future' and 'Past' respectively. Almkvist's informants were apparently unaware of the second past tense termed 'Aorist' in the other varieties of Beja currently recorded in AAMA (cf. Appleyard2007, p. 468)."
  :geodemoURL "http://www.ethnologue.com/language/bej"
  :geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The Northern-most representative of Beja is documented here, that of the Bishari in Aswan and Sudan, studied by Herman Almkvist (1881) in one of the earliest monographs dedicated to a variety of Beja."
- :schemata {:nonFiniteForm [:Participle ],
-            :case [:Object :Oblique :Possessive],
+ :schemata {:case [:Object  :Oblique :Possessive],
             :caseHead [:H_Object :H_Possessive :H_Subject],
             :conjClass [:Prefix :Suffix],
             :derivedStem [:Base :CausativeCausative :M :S :SM],
@@ -15,6 +15,7 @@
             :genHead [:H_Fem :H_Masc :H_Plural :H_Singular],
             :genP1 [:P1_Common :P1_Fem :P1_Masc],
             :gender [:Common :Fem :Masc],
+            :nonFiniteForm [:Participle],
             :numCop [:Plural :Singular],
             :numHead [:H_Fem :H_Masc :H_Plural :H_Singular],
             :numP1 [:P1_Plural :P1_Singular],
@@ -27,12 +28,13 @@
             :person [:Person1 :Person2 :Person3 :_Common :_NA],
             :polarity [:Affirmative :Negative],
             :pos [:Pronoun :Verb],
-            :proClass [:DatInd :IndObl :Independent :ObjSuff :ObjSuffWithV :PossInd :PossSuffAbl :PossSuffCop :PossSuffCopExx :PossSuffDat :PossSuffExx :PossSuffGen :PossSuffGenExx :PossSuffNom :PossSuffPlusGen :Reflexive :SubjMarker :SuffComp],
+            :proClass [:DatInd :IndObl :Independent :ObjPoss :ObjSuff :ObjSuffWithV :PossInd :PossSuffAbl :PossSuffCop :PossSuffCopExx :PossSuffDat :PossSuffExx :PossSuffGen :PossSuffGenExx :PossSuffNom :PossSuffPlusGen :Reflexive :SuffComp],
             :rootClass [:C :CC :CCC :CCCa :CCCi :CCCu :CCY :V :V2 :Vdpth],
             :stemClass [:PDent :PElide :PIrr :PNas :PVar :PVoc],
-            :tam [:Conditional :Future :FutureComp1 :FutureComp2 :Imperative :Infinitive :Optative :Past :Pluperfect :Present :StemQ :Participle],
-            :tknType [:IrrVerbs :PREFSUBJMARK :SubjMarker]
-            :pdgmType [:Finite :Finite_Partial :IrrVerbs :PREFSUBJMARK :PRO :Structure :SubjMarker]}
+            :tam [:Conditional :Future :FutureComp1 :FutureComp2 :Imperative :Infinitive :Optative :Participle :Past :Pluperfect :Present :StemQ],
+            :tknType [:IrrVerbs :PREFSUBJMARK],
+            :vmorphClass [:IrrVerbs :SubjMarkerPref :SubjMarkerSuff]
+            :pdgmType [:Finite :Finite_Partial :PRO :VOther]} 
  :pclass {:pngClass [:person :number :gender :genCop :genHead :genP1 :numCop :numHead :numP1 :numP2 :numPoss :persCop :persP1 :persP2],
           :synsemClass [:case :caseHead :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass :rootClass :stemClass],
@@ -9194,8 +9196,9 @@
     }
     {:label "beja_A-VPrefIrregCC-OTHER"
     :note "Almkvist1881 #304-26 (pp. 221-240). THERE ARE MISSING IRREGULAR VERBS:di say,di do,hi give,ah take,bari have,meri find,heru go,seek,wish,kan know,awai help,hamai be big,jai die,nani milk,bai go,fai sit,be,hai sit,be,kai become,be"
-    :pdgmType :IrrVerbs
-    :common {:conjClass :Prefix,
+    :pdgmType :VOther
+    :common {:vmorphClass :IrrVerbs
+             :conjClass :Prefix,
              :stemClass :PIrr,
              :tknType :IrrVerbs,
              :pos :Verb,
@@ -15250,11 +15253,11 @@
     }
     {:label "beja_A-VPrefSubjMarker"
     :note "Almkvist1881 #245"
-    :pdgmType :PREFSUBJMARK
+    :pdgmType :VOther
     :common {:conjClass :Prefix,
              :tknType :PREFSUBJMARK,
-             :pos :Pronoun,
-             :proClass :SubjMarker}
+             :pos :Verb,
+             :vmorphClass :SubjMarkerPref}
     :terms [[:polarity :tam :number :person :gender :token],
             [:Affirmative :Conditional :Singular :Person1 :Common "a…ēk"],
             [:Affirmative :Conditional :Singular :Person2 :Masc "te…ēk"],
@@ -15334,10 +15337,10 @@
     }
     {:label "beja_A-VSuffSubjMarker"
     :note "Almkvist1881 #235"
-    :pdgmType :SubjMarker
-    :common {:conjClass :Suffix,
-             :pos :Verb,
-             :tknType :SubjMarker}
+    :pdgmType :VOther
+    :common {:vmorphClass :SubjMarkerSuff
+             :conjClass :Suffix,
+             :pos :Verb}
     :terms [[:polarity :tam :number :person :gender :token],
             [:Affirmative :Conditional :Singular :Person1 :Common "-anjēk"],
             [:Affirmative :Conditional :Singular :Person2 :Masc "-tenjēk"],
@@ -15438,8 +15441,9 @@
             [:Negative :Present :Plural :Person3 :Common "ka---jān(a)"]]
     }
     {:label "beja_H-P3sgProDialectDist"
-    :pdgmType :Structure
-    :common {             :pos :Pronoun,
+    :pdgmType :PRO
+    :common {:pos :Pronoun,
+             :proClass :ObjPoss
              :person :Person3}
     :terms [[:case :number :token],
             [:Object :Singular "-[h]ooh"],
