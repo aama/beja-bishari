@@ -7,34 +7,35 @@
  :datasourceNotes "In order to avoid confusion and for ease of comparison,  what Almkvist calls 'Aorist' and 'Perfekt' are here termed 'Future' and 'Past' respectively. Almkvist's informants were apparently unaware of the second past tense termed 'Aorist' in the other varieties of Beja currently recorded in AAMA (cf. Appleyard2007, p. 468)."
  :geodemoURL "http://www.ethnologue.com/language/bej"
  :geodemoTXT "Beja is a closely related group of language varieties and dialects spoken in the Red Sea coastal and hill regions in Sudan, Eritrea, and Egypt by more than a million individuals. The Northern-most representative of Beja is documented here, that of the Bishari in Aswan and Sudan, studied by Herman Almkvist (1881) in one of the earliest monographs dedicated to a variety of Beja."
-:schemata {:case [:Object :Oblique :Possessive],
-           :caseHead [:H_Object :H_Possessive :H_Subject],
-           :conjClass [:Prefix :Suffix],
-           :derivedStem [:Base :CausativeCausative :M :S :SM],
-           :genCop [:Common :Fem :Masc],
-           :genHead [:H_Fem :H_Masc :H_Plural :H_Singular],
-           :genP1 [:P1_Common :P1_Fem :P1_Masc],
-           :gender [:Common :Fem :Masc],
-           :nonFiniteForm [:Participle],
-           :numCop [:Plural :Singular],
-           :numHead [:H_Fem :H_Masc :H_Plural :H_Singular],
-           :numP1 [:P1_Plural :P1_Singular],
-           :numP2 [:P2_Plural :P2_Singular],
-           :numPoss [:Poss_Plural :Poss_Singular],
-           :number [:Plural :Singular :_Common :_NA],
-           :persCop [:Person1 :Person2 :Person3],
-           :persP1 [:P1_Person1 :P1_Person2 :P1_Person3],
-           :persP2 [:P2_Person1 :P2_Person2 :P2_Person3],
-           :person [:Person1 :Person2 :Person3 :_Common :_NA],
-           :polarity [:Affirmative :Negative],
-           :pos [:Pronoun :Verb],
-           :proClass [:DatInd :IndObl :Independent :ObjPoss :ObjSuff :ObjSuffWithV :PossInd :PossSuffAbl :PossSuffCop :PossSuffCopExx :PossSuffDat :PossSuffExx :PossSuffGen :PossSuffGenExx :PossSuffNom :PossSuffPlusGen :Reflexive :SuffComp],
-           :rootClass [:C :CC :CCC :CCCa :CCCi :CCCu :CCY :V :V2 :Vdpth],
-           :stemClass [:PDent :PElide :PIrr :PNas :PVar :PVoc],
-           :tam [:Conditional :Future :FutureComp1 :FutureComp2 :Imperative :Infinitive :Optative :Participle :Past :Pluperfect :Present :StemQ],
-           :tknType [:IrrVerbs :PREFSUBJMARK],
-           :vmorphClass [:Finite  :Finite_Partial :IrrVerbs :SubjMarkerPref :SubjMarkerSuff]
-           }
+:schemata {:lexeme [:afu  :ah :am :are :at :awai :baden :bai :bari :beday :daa :dagw :di :din :dmm :du :ega :engad :fai :fedig :for :genaf :gwa :ha :hai :haid :hajid :hamai :heru :hi :ii :jai :kai :kan :ketim :kwai :masu :mehag :meri :mitya :mwas :nani :naw :ram :rby :rew :sa :sebar :sebob :sny :so :sugud :tam :tiffo :tu :uly :umba :wa :wali],
+ :case [:Object :Oblique :Possessive],
+ :caseHead [:H_Object :H_Possessive :H_Subject],
+ :conjClass [:Prefix :Suffix],
+ :derivedStem [:Base :CausativeCausative :M :S :SM],
+ :genCop [:Common :Fem :Masc],
+ :genHead [:H_Fem :H_Masc :H_Plural :H_Singular],
+ :genP1 [:P1_Common :P1_Fem :P1_Masc],
+ :gender [:Common :Fem :Masc],
+ :nonFiniteForm [:Participle],
+ :numCop [:Plural :Singular],
+ :numHead [:H_Fem :H_Masc :H_Plural :H_Singular],
+ :numP1 [:P1_Plural :P1_Singular],
+ :numP2 [:P2_Plural :P2_Singular],
+ :numPoss [:Poss_Plural :Poss_Singular],
+ :number [:Plural :Singular :_Common :_NA],
+ :persCop [:Person1 :Person2 :Person3],
+ :persP1 [:P1_Person1 :P1_Person2 :P1_Person3],
+ :persP2 [:P2_Person1 :P2_Person2 :P2_Person3],
+ :person [:Person1 :Person2 :Person3 :_Common :_NA],
+ :polarity [:Affirmative :Negative],
+ :pos [:Pronoun :Verb],
+ :proClass [:DatInd :IndObl :Independent :ObjPoss :ObjSuff :ObjSuffWithV :PossInd :PossSuffAbl :PossSuffCop :PossSuffCopExx :PossSuffDat :PossSuffExx :PossSuffGen :PossSuffGenExx :PossSuffNom :PossSuffPlusGen :Reflexive :SuffComp],
+ :rootClass [:C :CC :CCC :CCCa :CCCi :CCCu :CCY :V :V2 :Vdpth],
+ :stemClass [:PDent :PElide :PIrr :PNas :PVar :PVoc],
+ :tam [:Conditional :Future :FutureComp1 :FutureComp2 :Imperative :Infinitive :Optative :Participle :Past :Pluperfect :Present :StemQ],
+ :tknType [:IrrVerbs :PREFSUBJMARK],
+ :vmorphClass [:Finite :Finite_Partial :IrrVerbs :SubjMarkerPref :SubjMarkerSuff]
+ }
  :pclass {:pngClass [:person :number :gender :genCop :genHead :genP1 :numCop :numHead :numP1 :numP2 :numPoss :persCop :persP1 :persP2],
           :synsemClass [:case :caseHead :derivedStem :polarity :pos :proClass :tam],
           :inflClass [:conjClass :rootClass :stemClass],
@@ -14460,7 +14461,7 @@
     }
     {:label "beja_A-PDatInd"
     :note "Almkvist1881 #123"
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :DatInd}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "aní̄da"],
@@ -14476,7 +14477,7 @@
     }
     {:label "beja_A-PInd"
     :note "Almkvist1881 #100"
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :Independent}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "áne"],
@@ -14493,7 +14494,7 @@
     {:label "beja_A-PIndObl"
     :note "Almkvist1881 #127"
         :common {:case :Oblique,
-                          :pos :Pronoun,
+                          :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :IndObl}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "gé̄ba ~  ánī-gēb"],
@@ -14509,7 +14510,7 @@
     }
     {:label "beja_A-PObjSuff"
     :note "Almkvist1881 #133"
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :ObjSuff}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "-hēb"],
@@ -14522,7 +14523,7 @@
     }
     {:label "beja_A-PObjSuffWithV"
     :note "Almkvist1881 #333"
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :ObjSuffWithV}
     :terms [[:tam :token-note :token],
             [:Future "du [Frau]lasst mich warten" "batú̄k sí̄sanhé̄bi"],
@@ -14548,7 +14549,7 @@
     }
     {:label "beja_A-PPossInd"
     :note "Almkvist1881 #120"
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :PossInd}
     :terms [[:genHead :numHead :number :person :gender :token],
             [:H_Fem :H_Plural :Singular :Person1 :Common "ánī"],
@@ -14594,7 +14595,7 @@
     }
     {:label "beja_A-PPossSuffAbl"
     :note "Almkvist1881 #125"
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :PossSuffAbl}
     :terms [[:genHead :numHead :number :person :gender :token],
             [:H_Fem :H_Plural :Singular :Person1 :Fem "-tēsa"],
@@ -14624,7 +14625,7 @@
     }
     {:label "beja_A-PPossSuffCop"
     :note "Almkvist1881 #112"
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :PossSuffCop}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Masc "-u"],
@@ -14643,7 +14644,7 @@
     {:label "beja_A-PPossSuffCopExx"
     :note "Almkvist1881 #112 (Gender marking in possessive?) [8/17/15 examine :_Common in :person and :number]"
         :common {:gender :Common,
-                          :pos :Pronoun,
+                          :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :PossSuffCopExx}
     :terms [[:genCop :numCop :persCop :number :person :token],
             [:Common :Plural :Person1 :_Common :_Common "hénen kwá̄-ta"],
@@ -14717,7 +14718,7 @@
     }
     {:label "beja_A-PPossSuffDat"
     :note "Almkvist1881 #124"
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :PossSuffDat}
     :terms [[:number :gender :token],
             [:Singular :Masc "ú̄saniōnda"],
@@ -14755,7 +14756,7 @@
     }
     {:label "beja_A-PPossSuffExx"
     :note "Almkvist1881 #109-110. Add lexemes: san brother, kwa	sister, baba father, enda mother. NB: Baba and enda do not take article."
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :PossSuffExx}
     :terms [[:caseHead :genHead :numHead :number :person :gender :token],
             [:H_Object :H_Fem :H_Plural :Singular :Person1 :Common "áne té̄kwāté̄n áder"],
@@ -14870,7 +14871,7 @@
     {:label "beja_A-PPossSuffGen"
     :note "Almkvist1881 #106"
         :common {:caseHead :H_Possessive,
-                          :pos :Pronoun,
+                          :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :PossSuffGen}
     :terms [[:genHead :numHead :number :person :gender :token],
             [:H_Fem :H_Plural :Singular :Person1 :Common "-ta / -tē"],
@@ -14905,7 +14906,7 @@
     {:label "beja_A-PPossSuffGenExx"
     :note "Almkvist1881 #114,116"
         :common {             :number :Singular,
-             :pos :Pronoun,
+             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :PossSuffGenExx}
     :terms [[:caseHead :numHead :number :person :gender :token],
             [:H_Object :H_Plural :Singular :Person1 :Common "áne ūsánia (tūkwá̄tia) gáwa adá̄lib ha "],
@@ -14963,7 +14964,7 @@
     {:label "beja_A-PPossSuffNom"
     :note "Almkvist1881 # 105"
         :common {:caseHead :H_Subject,
-                          :pos :Pronoun,
+                          :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :PossSuffNom}
     :terms [[:genHead :numHead :number :person :gender :token],
             [:H_Fem :H_Plural :Singular :Person1 :Common "-ta"],
@@ -14997,7 +14998,7 @@
     }
     {:label "beja_A-PPossSuffPlusGen"
     :note "Almkvist1881 #116. Die singulare Genitivendung –I fem. –ti mit folgendem Possessivsuffixen"
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :PossSuffPlusGen}
     :terms [[:caseHead :genHead :numHead :numPoss :number :person :gender :token],
             [:H_Object :H_Plural :H_Fem :Poss_Plural :Singular :Person1 :Masc "-ē-ta"],
@@ -15195,7 +15196,7 @@
     }
     {:label "beja_A-PRefl"
     :note "Almkvist1881 #136"
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :Reflexive}
     :terms [[:number :person :gender :token],
             [:Singular :Person1 :Common "aneb ebíje"],
@@ -15211,7 +15212,7 @@
     }
     {:label "beja_A-PSuffComp"
     :note "Almkvist1881 #132. Pattern:P1 is bigger than P2"
-        :common {             :pos :Pronoun,
+        :common {             :pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :SuffComp}
     :terms [[:genP1 :numP1 :numP2 :persP1 :persP2 :token],
             [:P1_Common :P1_Plural :P2_Plural :P1_Person1 :P2_Person3 "hénen wāwinká̄-j-ēkná̄-j-ā"],
@@ -15416,7 +15417,7 @@
             [:Negative :Present :Plural :Person3 :Common "ka---jān(a)"]]
     }
     {:label "beja_H-P3sgProDialectDist"
-        :common {:pos :Pronoun,
+        :common {:pos :Pronoun, :pmorphClass :ProMorph,
              :proClass :ObjPoss
              :person :Person3}
     :terms [[:case :number :token],
